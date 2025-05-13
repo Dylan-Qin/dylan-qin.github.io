@@ -29,7 +29,7 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 (* Corresponding Authors, + Co-first Authors) 
 ## In the Year of 2025:
 
-Tingjia shen, Hao Wang*, **<u>Chuan Qin*</u>**, Ruijun Sun, Yang Song, Defu Lian, Hengshu Zhu, Enhong Chen. Prompting is not Enough: Exploring Knowledge Integration and Controllable Generation on Large Language Models. Big Data Mining and Analytics. 2025
+- Tingjia shen, Hao Wang*, **<u>Chuan Qin*</u>**, Ruijun Sun, Yang Song, Defu Lian, Hengshu Zhu, Enhong Chen. Prompting is not Enough: Exploring Knowledge Integration and Controllable Generation on Large Language Models. Big Data Mining and Analytics. 2025
 
 - **<u>Chuan Qin</u>**, Xin Chen, Chengrui Wang, Pengmin Wu, Xi Chen, Yihang Cheng, Jingyi Zhao, Meng Xiao, Xiangchao Dong, Qingqing Long, Boya Pan, Han Wu, Chengzan Li, Yuanchun Zhou, Hui Xiong, Hengshu Zhu. Scihorizon: Benchmarking ai-for-science readiness from scientific data to large language models. arXiv preprint arXiv:2503.13503, 2025. [[paper]](https://arxiv.org/pdf/2503.13503) 
 
