@@ -41,7 +41,6 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 
 - Haiping Ma, Manwei Li, **<u>Chuan Qin*</u>**, Dazhong Shen, Hengshu Zhu, Xingyi Zhang, Hui Xiong. Joint Ability Assessment for Talent Recruitment: A Neural Cognitive Diagnosis Approach. ACM Transactions on Management Information Systems **(ACM TMIS)**, 2025. [[paper]](https://dl.acm.org/doi/10.1145/3714414)
 
-- Yang Ji, Ying Sun, Yuting Zhang, Zhigaoyuan Wang, Yuanxin Zhuang, Zheng Gong, Dazhong Shen, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. A Comprehensive Survey on Self-Interpretable Neural Networks. arXiv preprint arXiv:2501.15638, 2025. [[paper]](https://arxiv.org/pdf/2501.15638)
 
 ## In the Year of 2024:
 
