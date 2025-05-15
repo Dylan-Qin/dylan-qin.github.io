@@ -55,7 +55,7 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 
 - Liyi Chen, **<u>Chuan Qin*</u>**, Ying Sun, Xin Song, Tong Xu, Hengshu Zhu, Hui Xiong*. Collaboration-Aware Hybrid Learning for Knowledge Development Prediction. In Proceedings of the Web Conference 2024 **(WWW-2024)**, 2024. [[paper]](https://dl.acm.org/doi/10.1145/3589334.3645326)
 
-- Xiaoshan Yu, **<u>Chuan Qin*</u>**, Qi Zhang, Chen Zhu, Haiping Ma, Xingyi Zhang, Hengshu Zhu. DISCO: A Hierarchical Disentangled Cognitive Diagnosis Framework for Interpretable Job Recommendation. In Proceedings of the IEEE International Conference on Data Mining 2024 **(ICDM-2024)**,  2024.
+- Xiaoshan Yu, **<u>Chuan Qin*</u>**, Qi Zhang, Chen Zhu, Haiping Ma*, Xingyi Zhang, Hengshu Zhu. DISCO: A Hierarchical Disentangled Cognitive Diagnosis Framework for Interpretable Job Recommendation. In Proceedings of the IEEE International Conference on Data Mining 2024 **(ICDM-2024)**,  2024.
 
 - Feihu Jiang, **<u>Chuan Qin*</u>**, Kaichun Yao, Chuyu Fang, Fuzhen Zhuang, Hengshu Zhu, Hui Xiong*. Enhancing Question Answering for Enterprise Knowledge Bases using Large Language Models. In Proceedings of the 29th International Conference on Database Systems for Advanced Applications **(DASFAA-2024)**, 2024. [[paper]](https://dl.acm.org/doi/10.1007/978-981-97-5562-2_18)
 
