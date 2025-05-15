@@ -49,7 +49,7 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 
 - Xi Chen+, **<u>Chuan Qin+</u>**, Chuyu Fang, Chao Wang, Chen Zhu, Fuzhen Zhuang, Hengshu Zhu, Hui Xiong. Job-SDF: A Multi-Granularity Dataset for Job Skill Demand Forecasting and Benchmarking. In Proceedings of the Thirty-Eighth Annual Conference on Neural Information Processing Systems **(NeurIPS-2024)**, 2024. [[paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/e997325c6f4045aa646c81e674076297-Paper-Datasets_and_Benchmarks_Track.pdf)
 
-- Xiaoshan Yu, **<u>Chuan Qin*</u>**, Dazhong Shen, Haiping Ma*, Le Zhang, Xinyi Zhang, Hengshu Zhu, Hui Xiong. RDGT: Enhancing Group Cognitive Diagnosis with Relation-Guided Dual-Side Graph Transformer. In IEEE Transactions on Knowledge and Data Engineering **(IEEE TKDE)**, 2024.
+- Xiaoshan Yu, **<u>Chuan Qin*</u>**, Dazhong Shen, Haiping Ma*, Le Zhang, Xinyi Zhang, Hengshu Zhu, Hui Xiong. RDGT: Enhancing Group Cognitive Diagnosis with Relation-Guided Dual-Side Graph Transformer. In IEEE Transactions on Knowledge and Data Engineering **(IEEE TKDE)**, 2024. [[paper]](https://ieeexplore.ieee.org/document/10388466)
 
 - Xiaoshan Yu, **<u>Chuan Qin*</u>**, Dazhong Shen, Shangshang Yang, Haiping Ma*, Hengshu Zhu*, Xingyi Zhang. RIGL: A Unified Reciprocal Approach for Tracing the Independent and Group Learning Processes. In Proceedings of the 30th SIGKDD Conference on Knowledge Discovery and Data Mining **(SIGKDD-2024)**, 2024. [[paper]](https://dl.acm.org/doi/10.1145/3637528.3671711)
 
