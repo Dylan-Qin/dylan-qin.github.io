@@ -17,17 +17,20 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Dr. Chuan Qin is currently an Associate Professor at the Computer Network Information Center, Chinese Academy of Sciences. Previously, he gained extensive industry experience as a Senior Algorithm Engineer at Baidu, China’s leading search engine and AI company, and as a Senior Researcher at BOSS Zhipin, the country’s largest online recruitment platform. He earned his Ph.D. in Computer Science from the University of Science and Technology of China (USTC) in 2021, under the mentorship of [Prof. Hui Xiong](http://datamining.rutgers.edu/) and [Prof. Enhong Chen](https://staff.ustc.edu.cn/~cheneh), following a B.S. in Computer Science from USTC in 2015. His general research interests include data mining and machine learning, with a focus on knowledge computing, cognitive computing, representation learning, and large foundational models. He is also committed to advancing these technologies' interdisciplinary applications across the natural and social sciences. He has published more than 50 top-tier journals and leading conference proceedings <a href='https://scholar.google.com/citations?user=0KTz65wAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> such as IEEE Transactions on Knowledge and Data Engineering (TKDE), IEEE Transactions on Neural Networks and Learning Systems (TNNLS), ACM Transactions on Information Systems (TOIS), ACM Transactions on Management Information Systems (TMIS), SIGKDD, SIGIR, NeurIPS, TheWebConf, IJCAI, AAAI, etc. He has been honored with the Excellence Award of the President’s Scholarship from Chinese Academy of Science (2021), a nomination for the Baidu Scholarship (top 20 globally) (2021), the Best Student Paper Award of SIGKDD-2018, and the 2022 Annual Hot Paper Award of SCIENCE CHINA Information Sciences.
+Dr. Chuan Qin is currently an Associate Professor at the Computer Network Information Center, Chinese Academy of Sciences. Previously, he gained extensive industry experience as a Senior Algorithm Engineer at Baidu, China’s leading search engine and AI company, and as a Senior Researcher at BOSS Zhipin, the country’s largest online recruitment platform. He earned his Ph.D. in Computer Science from the University of Science and Technology of China (USTC) in 2021, under the mentorship of [Prof. Hui Xiong](http://datamining.rutgers.edu/) and [Prof. Enhong Chen](https://staff.ustc.edu.cn/~cheneh), following a B.S. in Computer Science from USTC in 2015. His general research interests include data mining and machine learning, with a focus on knowledge computing, cognitive computing, representation learning, and large foundational models. He is also committed to advancing these technologies' interdisciplinary applications across the natural and social sciences. He has published more than 50 top-tier journals and leading conference proceedings <a href='https://scholar.google.com/citations?user=0KTz65wAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> such as Proceedings of the IEEE (PIEEE), IEEE Transactions on Knowledge and Data Engineering (TKDE), IEEE Transactions on Neural Networks and Learning Systems (TNNLS), ACM Transactions on Information Systems (TOIS), ACM Transactions on Management Information Systems (TMIS), SIGKDD, SIGIR, NeurIPS, TheWebConf, IJCAI, AAAI, etc. He has been honored with the Excellence Award of the President’s Scholarship from Chinese Academy of Science (2021), a nomination for the Baidu Scholarship (top 20 globally) (2021), the Best Student Paper Award of SIGKDD-2018, and the 2022 Annual Hot Paper Award of SCIENCE CHINA Information Sciences.
 
 # 🔥 News
-- *2025.04*: &nbsp;🎉🎉 One paper accepted by Big Data Mining and Analytics. Congrats to all the collaborators!
+- *2025.05*: &nbsp;🎉🎉 Our survey paper on Artificial Intelligence Techniques for Talent Analytics has been accepted Proceedings of the IEEE (PIEEE). Congrats to all the collaborators!
+- *2025.04*: &nbsp;🎉🎉 One paper has been accepted by Big Data Mining and Analytics. Congrats to all the collaborators!
 - *2025.03*: &nbsp;🎉🎉 The technical report of the SciHorizon project is now online [arXiv:2503.13503](https://arxiv.org/abs/2503.13503). Welcome to check it out!
 - *2025.01*: &nbsp;🎉🎉 Our evaluation platform for AI4Science, [SciHorizon](https://www.scihorizon.cn/), is now live. Stay tuned!
-- *2025.01*: &nbsp;🎉🎉 Two paper accepted by TMIS. Congrats to all the collaborators!
+- *2025.01*: &nbsp;🎉🎉 Two paper have been accepted  by TMIS. Congrats to all the collaborators!
 
 # 📝 Publications 
 (* Corresponding Authors, + Co-first Authors) 
 ## In the Year of 2025:
+
+- **<u>Chuan Qin</u>**, Zhang Le, Yihang Cheng, Rui Zha, Dazhong Shen, Qi Zhang, Xi Chen, Ying Sun, Chen Zhu, Hengshu Zhu, Hui Xiong. A Comprehensive Survey of Artificial Intelligence Techniques for Talent Analytics. Proceedings of the IEEE (PIEEE). 2025 [[paper]](https://arxiv.org/pdf/2307.03195) 
 
 - Tingjia shen, Hao Wang*, **<u>Chuan Qin*</u>**, Ruijun Sun, Yang Song, Defu Lian, Hengshu Zhu, Enhong Chen. Prompting is not Enough: Exploring Knowledge Integration and Controllable Generation on Large Language Models. Big Data Mining and Analytics. 2025
 
@@ -43,8 +46,6 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 
 
 ## In the Year of 2024:
-
-- **<u>Chuan Qin</u>**, Zhang Le, Yihang Cheng, Rui Zha, Dazhong Shen, Qi Zhang, Xi Chen, Ying Sun, Chen Zhu, Hengshu Zhu, Hui Xiong. A Comprehensive Survey of Artificial Intelligence Techniques for Talent Analytics. arXiv preprint arXiv:2307.03195v2, 2024. [[paper]](https://arxiv.org/pdf/2307.03195) 
 
 - Xi Chen+, **<u>Chuan Qin+</u>**, Chuyu Fang, Chao Wang, Chen Zhu, Fuzhen Zhuang, Hengshu Zhu, Hui Xiong. Job-SDF: A Multi-Granularity Dataset for Job Skill Demand Forecasting and Benchmarking. In Proceedings of the Thirty-Eighth Annual Conference on Neural Information Processing Systems **(NeurIPS-2024)**, 2024. [[paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/e997325c6f4045aa646c81e674076297-Paper-Datasets_and_Benchmarks_Track.pdf)
 
