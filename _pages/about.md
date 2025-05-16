@@ -20,27 +20,30 @@ redirect_from:
 Dr. Chuan Qin is currently an Associate Professor at the Computer Network Information Center, Chinese Academy of Sciences. Previously, he gained extensive industry experience as a Senior Algorithm Engineer at Baidu, China’s leading search engine and AI company, and as a Senior Researcher at BOSS Zhipin, the country’s largest online recruitment platform. He earned his Ph.D. in Computer Science from the University of Science and Technology of China (USTC) in 2021, under the mentorship of [Prof. Hui Xiong](http://datamining.rutgers.edu/) and [Prof. Enhong Chen](https://staff.ustc.edu.cn/~cheneh), following a B.S. in Computer Science from USTC in 2015. His general research interests include data mining and machine learning, with a focus on knowledge computing, cognitive computing, representation learning, and large foundational models. He is also committed to advancing these technologies' interdisciplinary applications across the natural and social sciences. He has published more than 50 top-tier journals and leading conference proceedings <a href='https://scholar.google.com/citations?user=0KTz65wAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> such as Proceedings of the IEEE (PIEEE), IEEE Transactions on Knowledge and Data Engineering (TKDE), IEEE Transactions on Neural Networks and Learning Systems (TNNLS), ACM Transactions on Information Systems (TOIS), ACM Transactions on Management Information Systems (TMIS), SIGKDD, SIGIR, NeurIPS, TheWebConf, IJCAI, AAAI, etc. He has been honored with the Excellence Award of the President’s Scholarship from Chinese Academy of Science (2021), a nomination for the Baidu Scholarship (top 20 globally) (2021), the Best Student Paper Award of SIGKDD-2018, and the 2022 Annual Hot Paper Award of SCIENCE CHINA Information Sciences.
 
 # 🔥 News
+
+- *2025.05*: &nbsp;🎉🎉 Three paper have been accepted by SIGKDD-2025. Congrats to all the collaborators!
 - *2025.05*: &nbsp;🎉🎉 Our survey paper on AI Techniques for Talent Analytics has been accepted by PIEEE. Congrats to all the collaborators!
 - *2025.04*: &nbsp;🎉🎉 One paper has been accepted by Big Data Mining and Analytics. Congrats to all the collaborators!
-- *2025.03*: &nbsp;🎉🎉 The technical report of the SciHorizon project is now online [arXiv:2503.13503](https://arxiv.org/abs/2503.13503). Welcome to check it out!
 - *2025.01*: &nbsp;🎉🎉 Our evaluation platform for AI4Science, [SciHorizon](https://www.scihorizon.cn/), is now live. Stay tuned!
-- *2025.01*: &nbsp;🎉🎉 Two paper have been accepted  by TMIS. Congrats to all the collaborators!
+- *2025.01*: &nbsp;🎉🎉 Two paper have been accepted by TMIS. Congrats to all the collaborators!
 
 # 📝 Publications 
 (* Corresponding Authors, + Co-first Authors) 
 ## In the Year of 2025:
 
-- **<u>Chuan Qin</u>**, Zhang Le, Yihang Cheng, Rui Zha, Dazhong Shen, Qi Zhang, Xi Chen, Ying Sun, Chen Zhu, Hengshu Zhu, Hui Xiong. A Comprehensive Survey of Artificial Intelligence Techniques for Talent Analytics. Proceedings of the IEEE (PIEEE). 2025 [[paper]](https://arxiv.org/pdf/2307.03195) 
+- **<u>Chuan Qin</u>**, Zhang Le, Yihang Cheng, Rui Zha, Dazhong Shen, Qi Zhang, Xi Chen, Ying Sun, Chen Zhu, Hengshu Zhu, Hui Xiong. A Comprehensive Survey of Artificial Intelligence Techniques for Talent Analytics. Proceedings of the IEEE (PIEEE). 2025 [[technical report]](https://arxiv.org/pdf/2307.03195) 
 
-- Tingjia shen, Hao Wang*, **<u>Chuan Qin*</u>**, Ruijun Sun, Yang Song, Defu Lian, Hengshu Zhu, Enhong Chen. Prompting is not Enough: Exploring Knowledge Integration and Controllable Generation on Large Language Models. Big Data Mining and Analytics. 2025
+- **<u>Chuan Qin</u>**, Xin Chen, Chengrui Wang, Pengmin Wu, Xi Chen, Yihang Cheng, Jingyi Zhao, Meng Xiao, Xiangchao Dong, Qingqing Long, Boya Pan, Han Wu, Chengzan Li, Yuanchun Zhou, Hui Xiong, Hengshu Zhu. Scihorizon: Benchmarking ai-for-science readiness from scientific data to large language models. In Proceedings of the 31st SIGKDD Conference on Knowledge Discovery and Data Mining V.2 **(SIGKDD-2025)**, 2025. [[technical report]](https://arxiv.org/pdf/2503.13503) 
 
-- **<u>Chuan Qin</u>**, Xin Chen, Chengrui Wang, Pengmin Wu, Xi Chen, Yihang Cheng, Jingyi Zhao, Meng Xiao, Xiangchao Dong, Qingqing Long, Boya Pan, Han Wu, Chengzan Li, Yuanchun Zhou, Hui Xiong, Hengshu Zhu. Scihorizon: Benchmarking ai-for-science readiness from scientific data to large language models. arXiv preprint arXiv:2503.13503, 2025. [[paper]](https://arxiv.org/pdf/2503.13503) 
+- Xiaoshan Yu, Shangshang Yang, Jian Li, Ziwen Wang, **<u>Chuan Qin</u>**, Haiping Ma, Xingyi Zhang. Rethinking Learner Modeling: A Feedback-Centric Cognitive Disentanglement Perspective. In Proceedings of the 31st SIGKDD Conference on Knowledge Discovery and Data Mining V.2 **(SIGKDD-2025)**, 2025. 
 
-- Yang Ji, Ying Sun,  Yuting Zhang, Zhigaoyuan Wang, Yuanxin Zhuang, Zheng Gong, Dazhong Shen, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. A Comprehensive Survey on Self-Interpretable Neural Networks. arXiv preprint arXiv:2501.15638, 2025. [[paper]](https://arxiv.org/pdf/2501.15638)
+- Zhenyu Tong+, **<u>Chuan Qin+</u>**, Chuyu Fang, Kaichun Yao, Xi Chen, Jingshuai Zhang, Chen Zhu, Hengshu Zhu. From Missteps to Mastery: Enhancing Low-Resource Dense Retrieval through Adaptive Query Generation. In Proceedings of the 31st SIGKDD Conference on Knowledge Discovery and Data Mining V.1 **(SIGKDD-2025)**, 2025. [[paper]](https://dl.acm.org/doi/10.1145/3690624.3709225)
 
 - **<u>Chuan Qin</u>**, Chuyu Fang, Kaichun Yao, Xi Chen, Fuzhen Zhuang, Hengshu Zhu. COTR: Efficient Job Task Recognition for Occupational Information Systems with Class-Incremental Learning. ACM Transactions on Management Information Systems **(ACM TMIS)**, 2025. [[paper]](https://dl.acm.org/doi/10.1145/3712306)
 
-- Zhenyu Tong+, **<u>Chuan Qin+</u>**, Chuyu Fang, Kaichun Yao, Xi Chen, Jingshuai Zhang, Chen Zhu, Hengshu Zhu. From Missteps to Mastery: Enhancing Low-Resource Dense Retrieval through Adaptive Query Generation. In Proceedings of the 31st SIGKDD Conference on Knowledge Discovery and Data Mining V.1 **(SIGKDD-2025)**, 2025. [[paper]](https://dl.acm.org/doi/10.1145/3690624.3709225)
+- Tingjia shen, Hao Wang*, **<u>Chuan Qin*</u>**, Ruijun Sun, Yang Song, Defu Lian, Hengshu Zhu, Enhong Chen. Prompting is not Enough: Exploring Knowledge Integration and Controllable Generation on Large Language Models. Big Data Mining and Analytics. 2025
+
+- Yang Ji, Ying Sun,  Yuting Zhang, Zhigaoyuan Wang, Yuanxin Zhuang, Zheng Gong, Dazhong Shen, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. A Comprehensive Survey on Self-Interpretable Neural Networks. arXiv preprint arXiv:2501.15638, 2025. [[paper]](https://arxiv.org/pdf/2501.15638)
 
 - Haiping Ma, Manwei Li, **<u>Chuan Qin*</u>**, Dazhong Shen, Hengshu Zhu, Xingyi Zhang, Hui Xiong. Joint Ability Assessment for Talent Recruitment: A Neural Cognitive Diagnosis Approach. ACM Transactions on Management Information Systems **(ACM TMIS)**, 2025. [[paper]](https://dl.acm.org/doi/10.1145/3714414)
 
