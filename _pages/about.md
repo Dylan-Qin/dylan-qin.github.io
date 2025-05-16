@@ -39,13 +39,13 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 
 - Zhenyu Tong+, **<u>Chuan Qin+</u>**, Chuyu Fang, Kaichun Yao, Xi Chen, Jingshuai Zhang, Chen Zhu, Hengshu Zhu. From Missteps to Mastery: Enhancing Low-Resource Dense Retrieval through Adaptive Query Generation. In Proceedings of the 31st SIGKDD Conference on Knowledge Discovery and Data Mining V.1 **(SIGKDD-2025)**, 2025. [[paper]](https://dl.acm.org/doi/10.1145/3690624.3709225)
 
-- **<u>Chuan Qin</u>**, Chuyu Fang, Kaichun Yao, Xi Chen, Fuzhen Zhuang, Hengshu Zhu. COTR: Efficient Job Task Recognition for Occupational Information Systems with Class-Incremental Learning. ACM Transactions on Management Information Systems **(ACM TMIS)**, 2025. [[paper]](https://dl.acm.org/doi/10.1145/3712306)
-
 - Tingjia shen, Hao Wang*, **<u>Chuan Qin*</u>**, Ruijun Sun, Yang Song, Defu Lian, Hengshu Zhu, Enhong Chen. Prompting is not Enough: Exploring Knowledge Integration and Controllable Generation on Large Language Models. Big Data Mining and Analytics. 2025
 
-- Yang Ji, Ying Sun,  Yuting Zhang, Zhigaoyuan Wang, Yuanxin Zhuang, Zheng Gong, Dazhong Shen, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. A Comprehensive Survey on Self-Interpretable Neural Networks. arXiv preprint arXiv:2501.15638, 2025. [[paper]](https://arxiv.org/pdf/2501.15638)
+- **<u>Chuan Qin</u>**, Chuyu Fang, Kaichun Yao, Xi Chen, Fuzhen Zhuang, Hengshu Zhu. COTR: Efficient Job Task Recognition for Occupational Information Systems with Class-Incremental Learning. ACM Transactions on Management Information Systems **(ACM TMIS)**, 2025. [[paper]](https://dl.acm.org/doi/10.1145/3712306)
 
 - Haiping Ma, Manwei Li, **<u>Chuan Qin*</u>**, Dazhong Shen, Hengshu Zhu, Xingyi Zhang, Hui Xiong. Joint Ability Assessment for Talent Recruitment: A Neural Cognitive Diagnosis Approach. ACM Transactions on Management Information Systems **(ACM TMIS)**, 2025. [[paper]](https://dl.acm.org/doi/10.1145/3714414)
+
+- Yang Ji, Ying Sun,  Yuting Zhang, Zhigaoyuan Wang, Yuanxin Zhuang, Zheng Gong, Dazhong Shen, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. A Comprehensive Survey on Self-Interpretable Neural Networks. arXiv preprint arXiv:2501.15638, 2025. [[paper]](https://arxiv.org/pdf/2501.15638)
 
 
 ## In the Year of 2024:
