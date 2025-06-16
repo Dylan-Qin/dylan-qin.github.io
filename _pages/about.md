@@ -21,6 +21,7 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 
 # 🔥 News
 
+- *2025.05*: &nbsp;🎉🎉 Our new survey paper on Value Alignment in Agentic AI Systems is out on [arXiv](https://arxiv.org/abs/2506.09656)! Check it out here.
 - *2025.05*: &nbsp;🎉🎉 Three paper have been accepted by SIGKDD-2025. Congrats to all the collaborators!
 - *2025.05*: &nbsp;🎉🎉 Our survey paper on AI Techniques for Talent Analytics has been accepted by PIEEE. Congrats to all the collaborators!
 - *2025.04*: &nbsp;🎉🎉 One paper has been accepted by Big Data Mining and Analytics. Congrats to all the collaborators!
@@ -31,7 +32,9 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 (* Corresponding Authors, + Co-first Authors) 
 ## In the Year of 2025:
 
-- **<u>Chuan Qin</u>**, Zhang Le, Yihang Cheng, Rui Zha, Dazhong Shen, Qi Zhang, Xi Chen, Ying Sun, Chen Zhu, Hengshu Zhu, Hui Xiong. A Comprehensive Survey of Artificial Intelligence Techniques for Talent Analytics. Proceedings of the IEEE (PIEEE). 2025 [[technical report]](https://arxiv.org/pdf/2307.03195) 
+- Wei Zheng, Hengshu Zhu, **<u>Chuan Qin</u>**, Han Wu, Yihang Cheng, Sirui Zhang, Xiaowei Jin, Yinuo Shen, Zhenxing Wang, Feimin Zhong, Hui Xiong. Application-Driven Value Alignment in Agentic AI Systems: Survey and Perspectives. arXiv preprint arXiv:2506.09656, 2025. [[technical report]](https://arxiv.org/abs/2506.09656)
+
+- **<u>Chuan Qin</u>**, Zhang Le, Yihang Cheng, Rui Zha, Dazhong Shen, Qi Zhang, Xi Chen, Ying Sun, Chen Zhu, Hengshu Zhu, Hui Xiong. A Comprehensive Survey of Artificial Intelligence Techniques for Talent Analytics. Proceedings of the IEEE (PIEEE). 2025 [[Early Access]](https://ieeexplore.ieee.org/document/11027075)[[technical report]](https://arxiv.org/pdf/2307.03195) 
 
 - **<u>Chuan Qin</u>**, Xin Chen, Chengrui Wang, Pengmin Wu, Xi Chen, Yihang Cheng, Jingyi Zhao, Meng Xiao, Xiangchao Dong, Qingqing Long, Boya Pan, Han Wu, Chengzan Li, Yuanchun Zhou, Hui Xiong, Hengshu Zhu. Scihorizon: Benchmarking ai-for-science readiness from scientific data to large language models. In Proceedings of the 31st SIGKDD Conference on Knowledge Discovery and Data Mining V.2 **(SIGKDD-2025)**, 2025. [[technical report]](https://arxiv.org/pdf/2503.13503) 
 
@@ -45,7 +48,7 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 
 - Haiping Ma, Manwei Li, **<u>Chuan Qin*</u>**, Dazhong Shen, Hengshu Zhu, Xingyi Zhang, Hui Xiong. Joint Ability Assessment for Talent Recruitment: A Neural Cognitive Diagnosis Approach. ACM Transactions on Management Information Systems **(ACM TMIS)**, 2025. [[paper]](https://dl.acm.org/doi/10.1145/3714414)
 
-- Yang Ji, Ying Sun,  Yuting Zhang, Zhigaoyuan Wang, Yuanxin Zhuang, Zheng Gong, Dazhong Shen, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. A Comprehensive Survey on Self-Interpretable Neural Networks. arXiv preprint arXiv:2501.15638, 2025. [[paper]](https://arxiv.org/pdf/2501.15638)
+- Yang Ji, Ying Sun,  Yuting Zhang, Zhigaoyuan Wang, Yuanxin Zhuang, Zheng Gong, Dazhong Shen, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. A Comprehensive Survey on Self-Interpretable Neural Networks. arXiv preprint arXiv:2501.15638, 2025. [[technical report]](https://arxiv.org/pdf/2501.15638)
 
 
 ## In the Year of 2024:
