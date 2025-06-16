@@ -21,7 +21,7 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 
 # 🔥 News
 
-- *2025.05*: &nbsp;🎉🎉 Our new survey paper on Value Alignment in Agentic AI Systems is out on [arXiv](https://arxiv.org/abs/2506.09656)! Check it out here.
+- *2025.06*: &nbsp;🎉🎉 Our new survey paper on Value Alignment in Agentic AI Systems is out on [arXiv](https://arxiv.org/abs/2506.09656)! Check it out here.
 - *2025.05*: &nbsp;🎉🎉 Three paper have been accepted by SIGKDD-2025. Congrats to all the collaborators!
 - *2025.05*: &nbsp;🎉🎉 Our survey paper on AI Techniques for Talent Analytics has been accepted by PIEEE. Congrats to all the collaborators!
 - *2025.04*: &nbsp;🎉🎉 One paper has been accepted by Big Data Mining and Analytics. Congrats to all the collaborators!
