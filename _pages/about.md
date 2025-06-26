@@ -42,7 +42,7 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 
 - Zhenyu Tong+, **<u>Chuan Qin+</u>**, Chuyu Fang, Kaichun Yao, Xi Chen, Jingshuai Zhang, Chen Zhu, Hengshu Zhu. From Missteps to Mastery: Enhancing Low-Resource Dense Retrieval through Adaptive Query Generation. In Proceedings of the 31st SIGKDD Conference on Knowledge Discovery and Data Mining V.1 **(SIGKDD-2025)**, 2025. [[paper]](https://dl.acm.org/doi/10.1145/3690624.3709225)
 
-- Tingjia shen, Hao Wang*, **<u>Chuan Qin*</u>**, Ruijun Sun, Yang Song, Defu Lian, Hengshu Zhu, Enhong Chen. Prompting is not Enough: Exploring Knowledge Integration and Controllable Generation on Large Language Models. Big Data Mining and Analytics. 2025
+- Tingjia shen, Hao Wang*, **<u>Chuan Qin*</u>**, Ruijun Sun, Yang Song, Defu Lian, Hengshu Zhu, Enhong Chen. Prompting is not Enough: Exploring Knowledge Integration and Controllable Generation on Large Language Models. Big Data Mining and Analytics, 2025
 
 - Chen Zhu, Xiao Hu, Han Wu, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. Enhancing Job Recommendations with LLM-based Resume Completion: A Behavior-Denoised Alignment Approach. Information Processing and Management **(IPM)**, 2025
 
