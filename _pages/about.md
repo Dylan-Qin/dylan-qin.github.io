@@ -44,7 +44,7 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 
 - Tingjia shen, Hao Wang*, **<u>Chuan Qin*</u>**, Ruijun Sun, Yang Song, Defu Lian, Hengshu Zhu, Enhong Chen. Prompting is not Enough: Exploring Knowledge Integration and Controllable Generation on Large Language Models. Big Data Mining and Analytics. 2025
 
-- Chen Zhu, Xiao Hu, Han Wu, **<u>Chuan Qin*</u>**, Hengshu Zhu, Hui Xiong. Enhancing Job Recommendations with LLM-based Resume Completion: A Behavior-Denoised Alignment Approach. Information Processing and Management **(IPM)**, 2025
+- Chen Zhu, Xiao Hu, Han Wu, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. Enhancing Job Recommendations with LLM-based Resume Completion: A Behavior-Denoised Alignment Approach. Information Processing and Management **(IPM)**, 2025
 
 - **<u>Chuan Qin</u>**, Chuyu Fang, Kaichun Yao, Xi Chen, Fuzhen Zhuang, Hengshu Zhu. COTR: Efficient Job Task Recognition for Occupational Information Systems with Class-Incremental Learning. ACM Transactions on Management Information Systems **(ACM TMIS)**, 2025. [[paper]](https://dl.acm.org/doi/10.1145/3712306)
 
