@@ -32,7 +32,10 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 (* Corresponding Authors, + Co-first Authors) 
 ## In the Year of 2025:
 
-- Wei Zheng, Hengshu Zhu, **<u>Chuan Qin</u>**, Han Wu, Yihang Cheng, Sirui Zhang, Xiaowei Jin, Yinuo Shen, Zhenxing Wang, Feimin Zhong, Hui Xiong. Application-Driven Value Alignment in Agentic AI Systems: Survey and Perspectives. arXiv preprint arXiv:2506.09656, 2025. [[technical report]](https://arxiv.org/abs/2506.09656) [[Github]](https://github.com/Wei-ZENG1020/Value-Alignment-Agentic-AI-Papers-Survey-Taxonomy)
+
+- Qi Zhou, Xi Chen, Chuyu Fang, Jianji Wang, **<u>Chuan Qin</u>**, Fuzhen Zhuang. Enhancing Dual-Target Cross-Domain Recommendation via Similar User Bridging.  In Proceedings of the 34th ACM International Conference on Information and Knowledge Management **(CIKM-2025)**. 2025.
+
+- Wei Zheng, Hengshu Zhu, **<u>Chuan Qin</u>**, Han Wu, Yihang Cheng, Sirui Zhang, Xiaowei Jin, Yinuo Shen, Zhenxing Wang, Feimin Zhong, Hui Xiong. Multi-level Value Alignment in Agentic AI Systems: Survey and Perspectives. arXiv preprint arXiv:2506.09656, 2025. [[technical report]](https://arxiv.org/abs/2506.09656) [[Github]](https://github.com/Wei-ZENG1020/Value-Alignment-Agentic-AI-Papers-Survey-Taxonomy)
 
 - **<u>Chuan Qin</u>**, Zhang Le, Yihang Cheng, Rui Zha, Dazhong Shen, Qi Zhang, Xi Chen, Ying Sun, Chen Zhu, Hengshu Zhu, Hui Xiong. A Comprehensive Survey of Artificial Intelligence Techniques for Talent Analytics. Proceedings of the IEEE (PIEEE). 2025 [[Early Access]](https://ieeexplore.ieee.org/document/11027075)[[technical report]](https://arxiv.org/pdf/2307.03195) 
 
