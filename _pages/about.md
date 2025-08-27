@@ -33,7 +33,7 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 ## In the Year of 2025:
 
 
-- Qi Zhou, Xi Chen, Chuyu Fang, Jianji Wang, **<u>Chuan Qin</u>**, Fuzhen Zhuang. Enhancing Dual-Target Cross-Domain Recommendation via Similar User Bridging.  In Proceedings of the 34th ACM International Conference on Information and Knowledge Management **(CIKM-2025)**. 2025.
+- Qi Zhou, Xi Chen, Chuyu Fang, Jianji Wang, **<u>Chuan Qin*</u>**, Fuzhen Zhuang*. Enhancing Dual-Target Cross-Domain Recommendation via Similar User Bridging.  In Proceedings of the 34th ACM International Conference on Information and Knowledge Management **(CIKM-2025)**. 2025.
 
 - Wei Zheng, Hengshu Zhu, **<u>Chuan Qin</u>**, Han Wu, Yihang Cheng, Sirui Zhang, Xiaowei Jin, Yinuo Shen, Zhenxing Wang, Feimin Zhong, Hui Xiong. Multi-level Value Alignment in Agentic AI Systems: Survey and Perspectives. arXiv preprint arXiv:2506.09656, 2025. [[technical report]](https://arxiv.org/abs/2506.09656) [[Github]](https://github.com/Wei-ZENG1020/Value-Alignment-Agentic-AI-Papers-Survey-Taxonomy)
 
