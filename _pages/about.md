@@ -21,7 +21,7 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 
 # 🔥 News
 
-- *2025.08*: &nbsp;🎉🎉 Our SciHorizon–powered economic and trade intelligent monitoring service has been featured by CCTV News! Check out the [report](https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=7360857326874011582) here.
+- *2025.08*: &nbsp;🎉🎉 Excited to share that our SciHorizon platform–powered economic and trade intelligent monitoring service has been featured by CCTV News! Check out the [report](https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=7360857326874011582) here.
 - *2025.08*: &nbsp;🎉🎉 One paper has been accepted by CIKM-2025. Congrats to all the collaborators!
 - *2025.06*: &nbsp;🎉🎉 Our new survey paper on Value Alignment in Agentic AI Systems is out on [arXiv](https://arxiv.org/abs/2506.09656)! Check it out here.
 - *2025.05*: &nbsp;🎉🎉 Three paper have been accepted by SIGKDD-2025. Congrats to all the collaborators!
