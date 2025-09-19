@@ -22,6 +22,7 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 # 🔥 News
 
 - *2025.08*: &nbsp;🎉🎉 Excited to share that our SciHorizon platform–powered economic and trade intelligent monitoring service has been featured by CCTV News! Check out the [report](https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=7360857326874011582) here.
+- *2025.09*: &nbsp;🎉🎉 One paper has been accepted by NeurIPS-2025. Congrats to all the collaborators!
 - *2025.08*: &nbsp;🎉🎉 One paper has been accepted by CIKM-2025. Congrats to all the collaborators!
 - *2025.06*: &nbsp;🎉🎉 Our new survey paper on Value Alignment in Agentic AI Systems is out on [arXiv](https://arxiv.org/abs/2506.09656)! Check it out here.
 - *2025.05*: &nbsp;🎉🎉 Three paper have been accepted by SIGKDD-2025. Congrats to all the collaborators!
@@ -34,6 +35,7 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 (* Corresponding Authors, + Co-first Authors) 
 ## In the Year of 2025:
 
+- Chao Wang, Yixin Song, Jinhui Ye, Chuan Qin, Dazhong Shen, Lingfeng Liu, Xiang Wang, Yanyong Zhang. FACE: A general Framework for Mapping Collaborative Filtering Embeddings into LLM Tokens. In The Thirty-ninth Annual Conference on Neural Information Processing Systems **(NeurIPS-2025)**. 2025.
 
 - Qi Zhou+, Xi Chen+, Chuyu Fang, Jianji Wang, **<u>Chuan Qin*</u>**, Fuzhen Zhuang*. Enhancing Dual-Target Cross-Domain Recommendation via Similar User Bridging.  In Proceedings of the 34th ACM International Conference on Information and Knowledge Management **(CIKM-2025)**. 2025.
 
