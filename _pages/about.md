@@ -36,7 +36,7 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 (* Corresponding Authors, + Co-first Authors) 
 ## In the Year of 2025:
 
-- - Yang Ji, Ying Sun,  Yuting Zhang, Zhigaoyuan Wang, Yuanxin Zhuang, Zheng Gong, Dazhong Shen, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. A Comprehensive Survey on Self-Interpretable Neural Networks. Proceedings of the IEEE (PIEEE). 2025 [[technical report]](https://arxiv.org/pdf/2501.15638)
+- Yang Ji, Ying Sun,  Yuting Zhang, Zhigaoyuan Wang, Yuanxin Zhuang, Zheng Gong, Dazhong Shen, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. A Comprehensive Survey on Self-Interpretable Neural Networks. Proceedings of the IEEE (PIEEE). 2025 [[technical report]](https://arxiv.org/pdf/2501.15638)
 
 - Yongwen Ren, Chao Wang, Peng Du, **<u>Chuan Qin</u>**, Dazhong Shen, Hui Xiong. Enhancing Conversational Recommender Systems with Tree-Structured Knowledge and Pretrained Language Models. In the Fortieth AAAI Conference on Artificial Intelligence **(AAAI-2026)**. 2025.
 
