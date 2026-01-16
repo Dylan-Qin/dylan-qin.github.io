@@ -20,7 +20,7 @@ redirect_from:
 Dr. Chuan Qin is currently an Associate Professor at the Computer Network Information Center, Chinese Academy of Sciences. Previously, he gained extensive industry experience as a Senior Algorithm Engineer at Baidu, China’s leading search engine and AI company, and as a Senior Researcher at BOSS Zhipin, the country’s largest online recruitment platform. He earned his Ph.D. in Computer Science from the University of Science and Technology of China (USTC) in 2021, under the mentorship of [Prof. Hui Xiong](http://datamining.rutgers.edu/) and [Prof. Enhong Chen](https://staff.ustc.edu.cn/~cheneh), following a B.S. in Computer Science from USTC in 2015. His general research interests include data mining and machine learning, with a focus on knowledge computing, cognitive computing, representation learning, and large foundational models. He is also committed to advancing these technologies' interdisciplinary applications across the natural and social sciences. He has published more than 60 top-tier journals and leading conference proceedings <a href='https://scholar.google.com/citations?user=0KTz65wAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> such as Proceedings of the IEEE (PIEEE), IEEE Transactions on Knowledge and Data Engineering (TKDE), IEEE Transactions on Neural Networks and Learning Systems (TNNLS), ACM Transactions on Information Systems (TOIS), ACM Transactions on Management Information Systems (TMIS), SIGKDD, SIGIR, NeurIPS, TheWebConf, IJCAI, AAAI, etc. He has been honored with the Excellence Award of the President’s Scholarship from Chinese Academy of Science (2021), a nomination for the Baidu Scholarship (top 20 globally) (2021), the Best Student Paper Award of SIGKDD-2018, and the 2022 Annual Hot Paper Award of SCIENCE CHINA Information Sciences.
 
 # 🔥 News
-
+- *2026.01*: &nbsp;🎉🎉 One paper has been accepted by WWW-2026. Congrats to all the collaborators!
 - *2025.11*: &nbsp;🎉🎉 Our next-generation scientific agent system, [SciMatrix](https://www.scimatrix.cn/), is now live. Stay tuned!
 - *2025.11*: &nbsp;🎉🎉 Our survey paper on Self-Interpretable Neural Networks has been accepted by PIEEE. Congrats to all the collaborators!
 - *2025.10*: &nbsp;🎉🎉 One paper has been accepted by AAAI-2026. Congrats to all the collaborators!
@@ -36,11 +36,15 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 
 # 📝 Publications 
 (* Corresponding Authors, + Co-first Authors) 
+
+## In the Year of 2026:
+- Yongwen Ren, Chao Wang, Peng Du, **<u>Chuan Qin</u>**, Dazhong Shen, Hui Xiong. Enhancing Conversational Recommender Systems with Tree-Structured Knowledge and Pretrained Language Models. In the Fortieth AAAI Conference on Artificial Intelligence **(AAAI-2026)**. 2026.
+
+- Fuling WANG, Le Zhang, Jingbo Zhou, Jindong Han, Ying Sun, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. ARADD: An Automatic Real-World API Discovery and Deployment Framework for AI Guide Service in Baidu Map. In the Web Conference 2026 **(WWW-2026)**. 2026
+
+
 ## In the Year of 2025:
-
 - Yang Ji, Ying Sun,  Yuting Zhang, Zhigaoyuan Wang, Yuanxin Zhuang, Zheng Gong, Dazhong Shen, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. A Comprehensive Survey on Self-Interpretable Neural Networks. Proceedings of the IEEE (PIEEE). 2025 [[technical report]](https://arxiv.org/pdf/2501.15638)
-
-- Yongwen Ren, Chao Wang, Peng Du, **<u>Chuan Qin</u>**, Dazhong Shen, Hui Xiong. Enhancing Conversational Recommender Systems with Tree-Structured Knowledge and Pretrained Language Models. In the Fortieth AAAI Conference on Artificial Intelligence **(AAAI-2026)**. 2025.
 
 - Chao Wang, Yixin Song, Jinhui Ye, **<u>Chuan Qin</u>**, Dazhong Shen, Lingfeng Liu, Xiang Wang, Yanyong Zhang. FACE: A general Framework for Mapping Collaborative Filtering Embeddings into LLM Tokens. In the Thirty-ninth Annual Conference on Neural Information Processing Systems **(NeurIPS-2025)**. 2025.
 
