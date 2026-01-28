@@ -38,6 +38,11 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 # 📝 Publications 
 (* Corresponding Authors, + Co-first Authors) 
 
+## Technical Reports:
+- Xiaohan Huang, Meng Xiao, **<u>Chuan Qin</u>**, Qingqing Long, Jinmiao Chen, Yuanchun Zhou, Hengshu Zhu. SciHorizon-GENE: Benchmarking LLM for Life Sciences Inference from Gene Knowledge to Functional Understanding. arXiv preprint arXiv:2601.12805, 2026. [[technical report]](https://arxiv.org/abs/2601.12805)[[SciHorizon-GENE]](https://www.scihorizon.cn/verticalCategory/SciHorizonGene)
+
+- Wei Zheng, Hengshu Zhu, **<u>Chuan Qin</u>**, Han Wu, Yihang Cheng, Sirui Zhang, Xiaowei Jin, Yinuo Shen, Zhenxing Wang, Feimin Zhong, Hui Xiong. Multi-level Value Alignment in Agentic AI Systems: Survey and Perspectives. arXiv preprint arXiv:2506.09656, 2025. [[technical report]](https://arxiv.org/abs/2506.09656) [[Github]](https://github.com/Wei-ZENG1020/Value-Alignment-Agentic-AI-Papers-Survey-Taxonomy)
+
 ## In the Year of 2026:
 - Xi Chen, **<u>Chuan Qin*</u>**, Ziqi Wang, Shasha Hu, Chao Wang, Hengshu Zhu, Hui Xiong*. Beyond the Known: An Unknown-Aware Large Language Model for Open-Set Text Classification. In the Fourteenth International Conference on Learning Representations **(ICLR-2026)**. 2026.
 
@@ -52,8 +57,6 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 - Chao Wang, Yixin Song, Jinhui Ye, **<u>Chuan Qin</u>**, Dazhong Shen, Lingfeng Liu, Xiang Wang, Yanyong Zhang. FACE: A general Framework for Mapping Collaborative Filtering Embeddings into LLM Tokens. In the Thirty-ninth Annual Conference on Neural Information Processing Systems **(NeurIPS-2025)**. 2025.
 
 - Qi Zhou+, Xi Chen+, Chuyu Fang, Jianji Wang, **<u>Chuan Qin*</u>**, Fuzhen Zhuang*. Enhancing Dual-Target Cross-Domain Recommendation via Similar User Bridging.  In Proceedings of the 34th ACM International Conference on Information and Knowledge Management **(CIKM-2025)**. 2025.
-
-- Wei Zheng, Hengshu Zhu, **<u>Chuan Qin</u>**, Han Wu, Yihang Cheng, Sirui Zhang, Xiaowei Jin, Yinuo Shen, Zhenxing Wang, Feimin Zhong, Hui Xiong. Multi-level Value Alignment in Agentic AI Systems: Survey and Perspectives. arXiv preprint arXiv:2506.09656, 2025. [[technical report]](https://arxiv.org/abs/2506.09656) [[Github]](https://github.com/Wei-ZENG1020/Value-Alignment-Agentic-AI-Papers-Survey-Taxonomy)
 
 - **<u>Chuan Qin</u>**, Zhang Le, Yihang Cheng, Rui Zha, Dazhong Shen, Qi Zhang, Xi Chen, Ying Sun, Chen Zhu, Hengshu Zhu, Hui Xiong. A Comprehensive Survey of Artificial Intelligence Techniques for Talent Analytics. Proceedings of the IEEE (PIEEE). 2025 [[Early Access]](https://ieeexplore.ieee.org/document/11027075)[[technical report]](https://arxiv.org/pdf/2307.03195) 
 
