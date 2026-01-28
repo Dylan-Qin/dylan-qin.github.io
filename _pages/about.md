@@ -52,7 +52,7 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 
 
 ## In the Year of 2025:
-- Yang Ji, Ying Sun,  Yuting Zhang, Zhigaoyuan Wang, Yuanxin Zhuang, Zheng Gong, Dazhong Shen, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. A Comprehensive Survey on Self-Interpretable Neural Networks. Proceedings of the IEEE (PIEEE). 2025 [[technical report]](https://arxiv.org/pdf/2501.15638)
+- Yang Ji, Ying Sun,  Yuting Zhang, Zhigaoyuan Wang, Yuanxin Zhuang, Zheng Gong, Dazhong Shen, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. A Comprehensive Survey on Self-Interpretable Neural Networks. Proceedings of the IEEE (PIEEE). 2025 [[paper]](https://ieeexplore.ieee.org/document/11275698)
 
 - Chao Wang, Yixin Song, Jinhui Ye, **<u>Chuan Qin</u>**, Dazhong Shen, Lingfeng Liu, Xiang Wang, Yanyong Zhang. FACE: A general Framework for Mapping Collaborative Filtering Embeddings into LLM Tokens. In the Thirty-ninth Annual Conference on Neural Information Processing Systems **(NeurIPS-2025)**. 2025.
 
