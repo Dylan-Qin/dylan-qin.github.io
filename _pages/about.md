@@ -58,9 +58,9 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 
 - Qi Zhou+, Xi Chen+, Chuyu Fang, Jianji Wang, **<u>Chuan Qin*</u>**, Fuzhen Zhuang*. Enhancing Dual-Target Cross-Domain Recommendation via Similar User Bridging.  In Proceedings of the 34th ACM International Conference on Information and Knowledge Management **(CIKM-2025)**. 2025.
 
-- **<u>Chuan Qin</u>**, Zhang Le, Yihang Cheng, Rui Zha, Dazhong Shen, Qi Zhang, Xi Chen, Ying Sun, Chen Zhu, Hengshu Zhu, Hui Xiong. A Comprehensive Survey of Artificial Intelligence Techniques for Talent Analytics. Proceedings of the IEEE (PIEEE). 2025 [[Early Access]](https://ieeexplore.ieee.org/document/11027075)[[technical report]](https://arxiv.org/pdf/2307.03195) 
+- **<u>Chuan Qin</u>**, Zhang Le, Yihang Cheng, Rui Zha, Dazhong Shen, Qi Zhang, Xi Chen, Ying Sun, Chen Zhu, Hengshu Zhu, Hui Xiong. A Comprehensive Survey of Artificial Intelligence Techniques for Talent Analytics. Proceedings of the IEEE (PIEEE). 2025 [[paper]](https://ieeexplore.ieee.org/document/11027075)[[technical report]](https://arxiv.org/pdf/2307.03195) 
 
-- **<u>Chuan Qin</u>**, Xin Chen, Chengrui Wang, Pengmin Wu, Xi Chen, Yihang Cheng, Jingyi Zhao, Meng Xiao, Xiangchao Dong, Qingqing Long, Boya Pan, Han Wu, Chengzan Li, Yuanchun Zhou, Hui Xiong, Hengshu Zhu. Scihorizon: Benchmarking ai-for-science readiness from scientific data to large language models. In Proceedings of the 31st SIGKDD Conference on Knowledge Discovery and Data Mining V.2 **(SIGKDD-2025)**, 2025. [[technical report]](https://arxiv.org/pdf/2503.13503) 
+- **<u>Chuan Qin</u>**, Xin Chen, Chengrui Wang, Pengmin Wu, Xi Chen, Yihang Cheng, Jingyi Zhao, Meng Xiao, Xiangchao Dong, Qingqing Long, Boya Pan, Han Wu, Chengzan Li, Yuanchun Zhou, Hui Xiong, Hengshu Zhu. Scihorizon: Benchmarking ai-for-science readiness from scientific data to large language models. In Proceedings of the 31st SIGKDD Conference on Knowledge Discovery and Data Mining V.2 **(SIGKDD-2025)**, 2025. [[paper]](https://dl.acm.org/doi/10.1145/3711896.3737403) 
 
 - Xiaoshan Yu, Shangshang Yang, Jian Li, Ziwen Wang, **<u>Chuan Qin</u>**, Haiping Ma, Xingyi Zhang. Rethinking Learner Modeling: A Feedback-Centric Cognitive Disentanglement Perspective. In Proceedings of the 31st SIGKDD Conference on Knowledge Discovery and Data Mining V.2 **(SIGKDD-2025)**, 2025. 
 
