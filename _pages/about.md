@@ -52,13 +52,13 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 
 
 ## In the Year of 2025:
-- Yang Ji, Ying Sun,  Yuting Zhang, Zhigaoyuan Wang, Yuanxin Zhuang, Zheng Gong, Dazhong Shen, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. A Comprehensive Survey on Self-Interpretable Neural Networks. Proceedings of the IEEE (PIEEE). 2025 [[paper]](https://ieeexplore.ieee.org/document/11275698)
+- Yang Ji, Ying Sun,  Yuting Zhang, Zhigaoyuan Wang, Yuanxin Zhuang, Zheng Gong, Dazhong Shen, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. A Comprehensive Survey on Self-Interpretable Neural Networks. Proceedings of the IEEE (**PIEEE**). 2025 [[paper]](https://ieeexplore.ieee.org/document/11275698)
 
 - Chao Wang, Yixin Song, Jinhui Ye, **<u>Chuan Qin</u>**, Dazhong Shen, Lingfeng Liu, Xiang Wang, Yanyong Zhang. FACE: A general Framework for Mapping Collaborative Filtering Embeddings into LLM Tokens. In the Thirty-ninth Annual Conference on Neural Information Processing Systems **(NeurIPS-2025)**. 2025.
 
 - Qi Zhou+, Xi Chen+, Chuyu Fang, Jianji Wang, **<u>Chuan Qin*</u>**, Fuzhen Zhuang*. Enhancing Dual-Target Cross-Domain Recommendation via Similar User Bridging.  In Proceedings of the 34th ACM International Conference on Information and Knowledge Management **(CIKM-2025)**. 2025.
 
-- **<u>Chuan Qin</u>**, Zhang Le, Yihang Cheng, Rui Zha, Dazhong Shen, Qi Zhang, Xi Chen, Ying Sun, Chen Zhu, Hengshu Zhu, Hui Xiong. A Comprehensive Survey of Artificial Intelligence Techniques for Talent Analytics. Proceedings of the IEEE (PIEEE). 2025 [[paper]](https://ieeexplore.ieee.org/document/11027075)[[technical report]](https://arxiv.org/pdf/2307.03195) 
+- **<u>Chuan Qin</u>**, Zhang Le, Yihang Cheng, Rui Zha, Dazhong Shen, Qi Zhang, Xi Chen, Ying Sun, Chen Zhu, Hengshu Zhu, Hui Xiong. A Comprehensive Survey of Artificial Intelligence Techniques for Talent Analytics. Proceedings of the IEEE (**PIEEE**). 2025 [[paper]](https://ieeexplore.ieee.org/document/11027075)[[technical report]](https://arxiv.org/pdf/2307.03195) 
 
 - **<u>Chuan Qin</u>**, Xin Chen, Chengrui Wang, Pengmin Wu, Xi Chen, Yihang Cheng, Jingyi Zhao, Meng Xiao, Xiangchao Dong, Qingqing Long, Boya Pan, Han Wu, Chengzan Li, Yuanchun Zhou, Hui Xiong, Hengshu Zhu. Scihorizon: Benchmarking ai-for-science readiness from scientific data to large language models. In Proceedings of the 31st SIGKDD Conference on Knowledge Discovery and Data Mining V.2 **(SIGKDD-2025)**, 2025. [[paper]](https://dl.acm.org/doi/10.1145/3711896.3737403) 
 
