@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
 - Xiaohan Huang, Meng Xiao, **<u>Chuan Qin</u>**, Qingqing Long, Jinmiao Chen, Yuanchun Zhou, Hengshu Zhu. SciHorizon-GENE: Benchmarking LLM for Life Sciences Inference from Gene Knowledge to Functional Understanding. arXiv preprint arXiv:2601.12805, 2026. [[technical report]](https://arxiv.org/abs/2601.12805)[[SciHorizon-GENE]](https://www.scihorizon.cn/verticalCategory/SciHorizonGene)
 
-- Wei Zheng, Hengshu Zhu, **<u>Chuan Qin</u>**, Han Wu, Yihang Cheng, Sirui Zhang, Xiaowei Jin, Yinuo Shen, Zhenxing Wang, Feimin Zhong, Hui Xiong. Multi-level Value Alignment in Agentic AI Systems: Survey and Perspectives. arXiv preprint arXiv:2506.09656, 2025. [[technical report]](https://arxiv.org/abs/2506.09656) [[Github]](https://github.com/Wei-ZENG1020/Value-Alignment-Agentic-AI-Papers-Survey-Taxonomy)
+- Wei Zeng, Hengshu Zhu, **<u>Chuan Qin</u>**, Han Wu, Yihang Cheng, Sirui Zhang, Xiaowei Jin, Yinuo Shen, Zhenxing Wang, Feimin Zhong, Hui Xiong. Multi-level Value Alignment in Agentic AI Systems: Survey and Perspectives. arXiv preprint arXiv:2506.09656, 2025. [[technical report]](https://arxiv.org/abs/2506.09656) [[Github]](https://github.com/Wei-ZENG1020/Value-Alignment-Agentic-AI-Papers-Survey-Taxonomy)
 
 
 ## In the Year of 2026:
