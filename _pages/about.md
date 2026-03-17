@@ -114,11 +114,11 @@ document.addEventListener('DOMContentLoaded', function() {
 ## In the Year of 2026:
 - Yunchu Bai, Chao Wang, Ying Sun, **<u>Chuan Qin</u>**, Wei Wu, Hui Xiong. Graph-based Prompt Learning with Mixture of Experts for Multi-task Corporate Profiling. ACM Transactions on Knowledge Discovery from Data **(ACM TKDD)**, 2026.
 
-- Yuhan Su, Hongke Zhao, **<u>Chuan Qin</u>**, Dazhong Shen, Hengshu Zhu. AI-Driven Skill Keyword Suggestion for Multi-Round Interviews: A Graph-Based Topic Approach. Information Processing and Management **(IPM)**, 2026.
+- Yuhan Su, Hongke Zhao, **<u>Chuan Qin</u>**, Dazhong Shen, Hengshu Zhu. AI-Driven Skill Keyword Suggestion for Multi-Round Interviews: A Graph-Based Topic Approach. Information Processing and Management **(IPM)**, 2026. [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S030645732600083X)
 
-- Xi Chen, **<u>Chuan Qin*</u>**, Ziqi Wang, Shasha Hu, Chao Wang, Hengshu Zhu, Hui Xiong*. Beyond the Known: An Unknown-Aware Large Language Model for Open-Set Text Classification. In the Fourteenth International Conference on Learning Representations **(ICLR-2026)**. 2026.
+- Xi Chen, **<u>Chuan Qin*</u>**, Ziqi Wang, Shasha Hu, Chao Wang, Hengshu Zhu, Hui Xiong*. Beyond the Known: An Unknown-Aware Large Language Model for Open-Set Text Classification. In the Fourteenth International Conference on Learning Representations **(ICLR-2026)**. 2026. [[paper]](https://openreview.net/pdf?id=BqLGlQF46f)
 
-- Yongwen Ren, Chao Wang, Peng Du, **<u>Chuan Qin</u>**, Dazhong Shen, Hui Xiong. Enhancing Conversational Recommender Systems with Tree-Structured Knowledge and Pretrained Language Models. In the Fortieth AAAI Conference on Artificial Intelligence **(AAAI-2026)**. 2026.
+- Yongwen Ren, Chao Wang, Peng Du, **<u>Chuan Qin</u>**, Dazhong Shen, Hui Xiong. Enhancing Conversational Recommender Systems with Tree-Structured Knowledge and Pretrained Language Models. In the Fortieth AAAI Conference on Artificial Intelligence **(AAAI-2026)**. 2026. [[technical report]](https://arxiv.org/pdf/2511.12579)
 
 - Fuling WANG, Le Zhang, Jingbo Zhou, Jindong Han, Ying Sun, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. ARADD: An Automatic Real-World API Discovery and Deployment Framework for AI Guide Service in Baidu Map. In the Web Conference 2026 **(WWW-2026)**. 2026
 
@@ -126,9 +126,9 @@ document.addEventListener('DOMContentLoaded', function() {
 ## In the Year of 2025:
 - Yang Ji, Ying Sun,  Yuting Zhang, Zhigaoyuan Wang, Yuanxin Zhuang, Zheng Gong, Dazhong Shen, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. A Comprehensive Survey on Self-Interpretable Neural Networks. Proceedings of the IEEE (**PIEEE**). 2025 [[paper]](https://ieeexplore.ieee.org/document/11275698)
 
-- Chao Wang, Yixin Song, Jinhui Ye, **<u>Chuan Qin</u>**, Dazhong Shen, Lingfeng Liu, Xiang Wang, Yanyong Zhang. FACE: A general Framework for Mapping Collaborative Filtering Embeddings into LLM Tokens. In the Thirty-ninth Annual Conference on Neural Information Processing Systems **(NeurIPS-2025)**. 2025.
+- Chao Wang, Yixin Song, Jinhui Ye, **<u>Chuan Qin</u>**, Dazhong Shen, Lingfeng Liu, Xiang Wang, Yanyong Zhang. FACE: A general Framework for Mapping Collaborative Filtering Embeddings into LLM Tokens. In the Thirty-ninth Annual Conference on Neural Information Processing Systems **(NeurIPS-2025)**. 2025. [[paper]](https://openreview.net/pdf?id=loznSxLomv)
 
-- Qi Zhou+, Xi Chen+, Chuyu Fang, Jianji Wang, **<u>Chuan Qin*</u>**, Fuzhen Zhuang*. Enhancing Dual-Target Cross-Domain Recommendation via Similar User Bridging.  In Proceedings of the 34th ACM International Conference on Information and Knowledge Management **(CIKM-2025)**. 2025.
+- Qi Zhou+, Xi Chen+, Chuyu Fang, Jianji Wang, **<u>Chuan Qin*</u>**, Fuzhen Zhuang*. Enhancing Dual-Target Cross-Domain Recommendation via Similar User Bridging.  In Proceedings of the 34th ACM International Conference on Information and Knowledge Management **(CIKM-2025)**. 2025. [[paper]](https://dl.acm.org/doi/10.1145/3746252.3761356)
 
 - **<u>Chuan Qin</u>**, Zhang Le, Yihang Cheng, Rui Zha, Dazhong Shen, Qi Zhang, Xi Chen, Ying Sun, Chen Zhu, Hengshu Zhu, Hui Xiong. A Comprehensive Survey of Artificial Intelligence Techniques for Talent Analytics. Proceedings of the IEEE (**PIEEE**). 2025 [[paper]](https://ieeexplore.ieee.org/document/11027075)[[technical report]](https://arxiv.org/pdf/2307.03195) **<span style="color:red">(Featured on Cover)</span>**
 
