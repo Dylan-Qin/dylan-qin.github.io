@@ -20,6 +20,7 @@ redirect_from:
 Dr. Chuan Qin is currently an Associate Professor at the Computer Network Information Center, Chinese Academy of Sciences. Previously, he gained extensive industry experience as a Senior Algorithm Engineer at Baidu, China’s leading search engine and AI company, and as a Senior Researcher at BOSS Zhipin, the country’s largest online recruitment platform. He earned his Ph.D. in Computer Science from the University of Science and Technology of China (USTC) in 2021, under the mentorship of [Prof. Hui Xiong](http://datamining.rutgers.edu/) and [Prof. Enhong Chen](https://staff.ustc.edu.cn/~cheneh), following a B.S. in Computer Science from USTC in 2015. His general research interests include data mining and machine learning, with a focus on knowledge computing, cognitive computing, representation learning, and large foundational models. He is also committed to advancing these technologies' interdisciplinary applications across the natural and social sciences. He has published more than 60 top-tier journals and leading conference proceedings <a href='https://scholar.google.com/citations?user=0KTz65wAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> such as Proceedings of the IEEE (PIEEE), IEEE Transactions on Knowledge and Data Engineering (TKDE), IEEE Transactions on Neural Networks and Learning Systems (TNNLS), ACM Transactions on Information Systems (TOIS), ACM Transactions on Management Information Systems (TMIS), SIGKDD, SIGIR, NeurIPS, TheWebConf, ICLR, AAAI, etc. He has been honored with the Excellence Award of the President’s Scholarship from Chinese Academy of Science (2021), a nomination for the Baidu Scholarship (top 20 globally) (2021), the Best Student Paper Award of SIGKDD-2018, and the 2022 Annual Hot Paper Award of SCIENCE CHINA Information Sciences.
 
 # 🔥 News
+- *2026.04*: &nbsp;🎉🎉 Four paper has been accepted by ACL-2026(3 Main + 1 Findings). Congrats to all the collaborators!
 - *2026.03*: &nbsp;🎉🎉 Our [Research Claw](https://github.com/nanoAgentTeam/research-claw) is officially open source. Grab your 24/7 AI research assistant! Welcome to visit [Nano Agent Team](https://nanoagentteam.github.io/) for more projects!
 - *2026.03*: &nbsp;🎉🎉 One paper has been accepted by ACM TKDD. Congrats to all the collaborators!
 - *2026.02*: &nbsp;🎉🎉 Our MobilityBench for evaluating route-planning agents in real-world mobility scenarios is now released on [GitHub]((https://github.com/AMAP-ML/MobilityBench))! Check out the [technical report](https://arxiv.org/abs/2602.22638) here.
@@ -113,6 +114,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 ## In the Year of 2026:
+
+- Xi Chen, **<u>Chuan Qin*</u>**, Jinpeng Li, Shasha Hu, Chao Wang, Hengshu Zhu, Hui Xiong*. GenDis: Generative-Discriminative Dual-View Co-Training for Generalized Category Discovery. In the 64th Annual Meeting of the Association for Computational Linguistics **(ACL-2026)**, 2026.
+
+- Wenxi Xu, **<u>Chuan Qin*</u>**, Xi Chen, Chuyu Fang, Yuanchun Zhou, Hengshu Zhu. TLSA: LLM-Guided Text-Label Space Alignment with Contrastive Learning for Generalized Category Discovery. In the 64th Annual Meeting of the Association for Computational Linguistics **(ACL-2026)**, 2026.
+
+- Jiaming Leng, Yunying Bi, **<u>Chuan Qin</u>**, Zhenya Huang, Bing Yin, Haojie Ren, Yanyong Zhang, Chao Wang. TransLLM: A Unified Multi-Task Large Language Model for Urban Transportation via Learnable Prompting. In the 64th Annual Meeting of the Association for Computational Linguistics **(ACL-2026)**, 2026.
+
+- **<u>Chuan Qin+</u>**, Xi Chen+, Jinpeng Li+, Hengshu Zhu*. BOLT: Benchmarking Open-World Learning for Text Classification. In the 64th Annual Meeting of the Association for Computational Linguistics **(Findings of ACL-2026)**, 2026.
+
 - Yunchu Bai, Chao Wang, Ying Sun, **<u>Chuan Qin</u>**, Wei Wu, Hui Xiong. Graph-based Prompt Learning with Mixture of Experts for Multi-task Corporate Profiling. ACM Transactions on Knowledge Discovery from Data **(ACM TKDD)**, 2026.
 
 - Yuhan Su, Hongke Zhao, **<u>Chuan Qin</u>**, Dazhong Shen, Hengshu Zhu. AI-Driven Skill Keyword Suggestion for Multi-Round Interviews: A Graph-Based Topic Approach. Information Processing and Management **(IPM)**, 2026. [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S030645732600083X)
