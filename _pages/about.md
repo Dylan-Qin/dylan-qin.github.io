@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 - Yongwen Ren, Chao Wang, Peng Du, **<u>Chuan Qin</u>**, Dazhong Shen, Hui Xiong. Enhancing Conversational Recommender Systems with Tree-Structured Knowledge and Pretrained Language Models. In the Fortieth AAAI Conference on Artificial Intelligence **(AAAI-2026)**. 2026. [[technical report]](https://arxiv.org/pdf/2511.12579)
 
-- Fuling WANG, Le Zhang, Jingbo Zhou, Jindong Han, Ying Sun, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. ARADD: An Automatic Real-World API Discovery and Deployment Framework for AI Guide Service in Baidu Map. In the Web Conference 2026 **(WWW-2026)**. 2026
+- Fuling WANG, Le Zhang, Jingbo Zhou, Jindong Han, Ying Sun, **<u>Chuan Qin</u>**, Hengshu Zhu, Hui Xiong. ARADD: An Automatic Real-World API Discovery and Deployment Framework for AI Guide Service in Baidu Map. In the Web Conference 2026 **(WWW-2026)**. 2026 [[paper]](https://doi.org/10.1145/3774904.3792817)
 
 
 ## In the Year of 2025:
