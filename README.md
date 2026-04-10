@@ -8,7 +8,7 @@ Homepage: https://dylan-qin.github.io/
 
 ## About
 
-Dr. Chuan Qin's research interests include **data mining** and **machine learning**, with a focus on knowledge computing, cognitive computing, representation learning, and large foundational models, as well as their interdisciplinary applications across the natural and social sciences. He has published 60+ papers in top-tier venues including PIEEE, TKDE, TNNLS, TOIS, TMIS, SIGKDD, SIGIR, NeurIPS, ICLR, TheWebConf, IJCAI, and AAAI.
+Dr. Chuan Qin's research interests include **data mining** and **machine learning**, with a focus on knowledge computing, cognitive computing, representation learning, and large foundational models, as well as their interdisciplinary applications across the natural and social sciences. He has published 70+ papers in top-tier venues including PIEEE, TKDE, TNNLS, TOIS, TMIS, SIGKDD, SIGIR, NeurIPS, ICLR, TheWebConf, IJCAI, and AAAI.
 
 ---
 
