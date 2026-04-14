@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 - **<u>Chuan Qin+</u>**, Xi Chen+, Jinpeng Li+, Hengshu Zhu*. BOLT: Benchmarking Open-World Learning for Text Classification. In the 64th Annual Meeting of the Association for Computational Linguistics **(Findings of ACL-2026)**, 2026.
 
-- Yunchu Bai, Chao Wang, Ying Sun, **<u>Chuan Qin</u>**, Wei Wu, Hui Xiong. Graph-based Prompt Learning with Mixture of Experts for Multi-task Corporate Profiling. ACM Transactions on Knowledge Discovery from Data **(ACM TKDD)**, 2026.
+- Yunchu Bai, Chao Wang, Ying Sun, **<u>Chuan Qin</u>**, Wei Wu, Hui Xiong. Graph-based Prompt Learning with Mixture of Experts for Multi-task Corporate Profiling. ACM Transactions on Knowledge Discovery from Data **(ACM TKDD)**, 2026. [[paper]](https://dl.acm.org/doi/10.1145/3801152)
 
 - Yuhan Su, Hongke Zhao, **<u>Chuan Qin</u>**, Dazhong Shen, Hengshu Zhu. AI-Driven Skill Keyword Suggestion for Multi-Round Interviews: A Graph-Based Topic Approach. Information Processing and Management **(IPM)**, 2026. [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S030645732600083X)
 
