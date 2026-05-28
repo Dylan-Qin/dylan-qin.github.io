@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 - Xiaohan Huang, Meng Xiao, **<u>Chuan Qin</u>**, Qingqing Long, Jinmiao Chen, Yuanchun Zhou, Hengshu Zhu. SciHorizon-GENE: Benchmarking LLM for Life Sciences Inference from Gene Knowledge to Functional Understanding. In Proceedings of the 32nd SIGKDD Conference on Knowledge Discovery and Data Mining **(SIGKDD-2026, Datasets and Benchmarks Track)**, 2026. [[technical report]](https://arxiv.org/abs/2601.12805)[[SciHorizon-GENE]](https://www.scihorizon.cn/verticalCategory/SciHorizonGene) 
 
-- Dianyu Liu, **<u>Chuan Qin</u>**, Xi Chen, Xiaohan Li, Wenxi Xu, Yuyang Wang, Xin Chen, Yuanchun Zhou, Hengshu Zhu. SciHorizon-DataEVA: An Agentic System to Scalable AI-Readiness Evaluation of Heterogeneous Scientific Data. In Proceedings of the 32nd SIGKDD Conference on Knowledge Discovery and Data Mining **(SIGKDD-2026, AI for Sciences Track)**, 2026.
+- Dianyu Liu+, **<u>Chuan Qin+</u>**, Xi Chen, Xiaohan Li, Wenxi Xu, Yuyang Wang, Xin Chen, Yuanchun Zhou, Hengshu Zhu. SciHorizon-DataEVA: An Agentic System to Scalable AI-Readiness Evaluation of Heterogeneous Scientific Data. In Proceedings of the 32nd SIGKDD Conference on Knowledge Discovery and Data Mining **(SIGKDD-2026, AI for Sciences Track)**, 2026.
 
 - Wei Zeng, Hengshu Zhu, **<u>Chuan Qin</u>**, Han Wu, Yihang Cheng, Yinuo Shen, Zhe Wang, Yuyang Wang, Sirui Zhang, Xiaowei Jin, Zhenxing Wang, Feimin Zhong, Hui Xiong. A Survey on Value Alignment in Agentic AI Systems. In the 35th International Joint Conference on Artificial Intelligence **(IJCAI-2026, Survey Track)**, 2026. [[technical report]](https://arxiv.org/abs/2506.09656) [[Github]](https://github.com/Wei-ZENG1020/Value-Alignment-Agentic-AI-Papers-Survey-Taxonomy)
 
