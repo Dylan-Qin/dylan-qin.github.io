@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 ## In the Year of 2026:
 
-- Zhiheng Song+, Jingshuai Zhang+, **<u>Chuan Qin*</u>**, Chao Wang, Chao Chen, Longfei Xu, Kaikui Liu, Xiangxiang Chu, Hengshu Zhu*. MobilityBench: A Benchmark for Evaluating Route-Planning Agents in Real-World Mobility Scenarios. In Proceedings of the 32nd SIGKDD Conference on Knowledge Discovery and Data Mining **(SIGKDD-2026, Datasets and Benchmarks Track)**, 2026. 2026. [[technical report]](https://arxiv.org/abs/2602.22638) [[Github]](https://github.com/AMAP-ML/MobilityBench) 
+- Zhiheng Song+, Jingshuai Zhang+, **<u>Chuan Qin*</u>**, Chao Wang, Chao Chen, Longfei Xu, Kaikui Liu, Xiangxiang Chu, Hengshu Zhu*. MobilityBench: A Benchmark for Evaluating Route-Planning Agents in Real-World Mobility Scenarios. In Proceedings of the 32nd SIGKDD Conference on Knowledge Discovery and Data Mining **(SIGKDD-2026, Datasets and Benchmarks Track)**, 2026. [[technical report]](https://arxiv.org/abs/2602.22638) [[Github]](https://github.com/AMAP-ML/MobilityBench) 
 
 - Xiaohan Huang, Meng Xiao, **<u>Chuan Qin</u>**, Qingqing Long, Jinmiao Chen, Yuanchun Zhou, Hengshu Zhu. Benchmarking LLM for Life Sciences Inference from Knowledge to Functional Understanding. In Proceedings of the 32nd SIGKDD Conference on Knowledge Discovery and Data Mining **(SIGKDD-2026, Datasets and Benchmarks Track)**, 2026. 
   <!-- [[technical report]](https://arxiv.org/abs/2601.12805)[[SciHorizon-GENE]](https://www.scihorizon.cn/verticalCategory/SciHorizonGene)  -->
