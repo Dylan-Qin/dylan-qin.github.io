@@ -148,6 +148,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 - Chao Wang, Yixin Song, Jinhui Ye, **<u>Chuan Qin</u>**, Dazhong Shen, Lingfeng Liu, Xiang Wang, Yanyong Zhang. FACE: A general Framework for Mapping Collaborative Filtering Embeddings into LLM Tokens. In the Thirty-ninth Annual Conference on Neural Information Processing Systems **(NeurIPS-2025)**. 2025. [[paper]](https://openreview.net/pdf?id=loznSxLomv)
 
+- Tianfu Wang, Long Yang, Chao Wang, **<u>Chuan Qin</u>**, Liwei Deng, Li Shen, Hui Xiong. Towards Constraint-aware Learning for Resource Allocation in NFV Networks. In the ICML 2025 Workshop on Machine Learning for Wireless Communication and Networks **(ML4Wireless)**, 2025. [[paper]](https://arxiv.org/abs/2410.22999) **<span style="color:red">(Best Paper Award)</span>**
+
 - Qi Zhou+, Xi Chen+, Chuyu Fang, Jianji Wang, **<u>Chuan Qin*</u>**, Fuzhen Zhuang*. Enhancing Dual-Target Cross-Domain Recommendation via Similar User Bridging.  In Proceedings of the 34th ACM International Conference on Information and Knowledge Management **(CIKM-2025)**. 2025. [[paper]](https://dl.acm.org/doi/10.1145/3746252.3761356)
 
 - **<u>Chuan Qin</u>**, Zhang Le, Yihang Cheng, Rui Zha, Dazhong Shen, Qi Zhang, Xi Chen, Ying Sun, Chen Zhu, Hengshu Zhu, Hui Xiong. A Comprehensive Survey of Artificial Intelligence Techniques for Talent Analytics. Proceedings of the IEEE (**PIEEE**). 2025 [[paper]](https://ieeexplore.ieee.org/document/11027075)[[technical report]](https://arxiv.org/pdf/2307.03195) **<span style="color:red">(Featured on Cover)</span>**
