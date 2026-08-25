@@ -132,13 +132,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 - Wei Zeng, Hengshu Zhu, **<u>Chuan Qin</u>**, Han Wu, Yihang Cheng, Yinuo Shen, Zhe Wang, Yuyang Wang, Sirui Zhang, Xiaowei Jin, Zhenxing Wang, Feimin Zhong, Hui Xiong. A Survey on Value Alignment in Agentic AI Systems. In the 35th International Joint Conference on Artificial Intelligence **(IJCAI-2026, Survey Track)**, 2026. [[technical report]](https://arxiv.org/abs/2506.09656) [[Github]](https://github.com/Wei-ZENG1020/Value-Alignment-Agentic-AI-Papers-Survey-Taxonomy)
 
-- Xi Chen, **<u>Chuan Qin*</u>**, Jinpeng Li, Shasha Hu, Chao Wang, Hengshu Zhu, Hui Xiong*. GenDis: Generative-Discriminative Dual-View Co-Training for Generalized Category Discovery. In the 64th Annual Meeting of the Association for Computational Linguistics **(ACL-2026)**, 2026.
+- Xi Chen, **<u>Chuan Qin*</u>**, Jinpeng Li, Shasha Hu, Chao Wang, Hengshu Zhu, Hui Xiong*. GenDis: Generative-Discriminative Dual-View Co-Training for Generalized Category Discovery. In the 64th Annual Meeting of the Association for Computational Linguistics **(ACL-2026)**, 2026. [[paper]](https://aclanthology.org/2026.acl-long.107/)
 
-- Wenxi Xu, **<u>Chuan Qin*</u>**, Xi Chen, Chuyu Fang, Yuanchun Zhou, Hengshu Zhu. TLSA: LLM-Guided Text-Label Space Alignment with Contrastive Learning for Generalized Category Discovery. In the 64th Annual Meeting of the Association for Computational Linguistics **(ACL-2026)**, 2026.
+- Wenxi Xu, **<u>Chuan Qin*</u>**, Xi Chen, Chuyu Fang, Yuanchun Zhou, Hengshu Zhu. TLSA: LLM-Guided Text-Label Space Alignment with Contrastive Learning for Generalized Category Discovery. In the 64th Annual Meeting of the Association for Computational Linguistics **(ACL-2026)**, 2026. [[paper]](https://aclanthology.org/2026.acl-long.869/)
 
-- Jiaming Leng, Yunying Bi, **<u>Chuan Qin</u>**, Zhenya Huang, Bing Yin, Haojie Ren, Yanyong Zhang, Chao Wang. TransLLM: A Unified Multi-Task Large Language Model for Urban Transportation via Learnable Prompting. In the 64th Annual Meeting of the Association for Computational Linguistics **(ACL-2026)**, 2026.
+- Jiaming Leng, Yunying Bi, **<u>Chuan Qin</u>**, Zhenya Huang, Bing Yin, Haojie Ren, Yanyong Zhang, Chao Wang. TransLLM: A Unified Multi-Task Large Language Model for Urban Transportation via Learnable Prompting. In the 64th Annual Meeting of the Association for Computational Linguistics **(ACL-2026)**, 2026. [[paper]](https://aclanthology.org/2026.acl-long.1195/)
 
-- **<u>Chuan Qin+</u>**, Xi Chen+, Jinpeng Li+, Hengshu Zhu*. BOLT: Benchmarking Open-World Learning for Text Classification. In the 64th Annual Meeting of the Association for Computational Linguistics **(Findings of ACL-2026)**, 2026.
+- **<u>Chuan Qin+</u>**, Xi Chen+, Jinpeng Li+, Hengshu Zhu*. BOLT: Benchmarking Open-World Learning for Text Classification. In the 64th Annual Meeting of the Association for Computational Linguistics **(Findings of ACL-2026)**, 2026. [[paper]](https://aclanthology.org/2026.findings-acl.667/)
 
 - Yunchu Bai, Chao Wang, Ying Sun, **<u>Chuan Qin</u>**, Wei Wu, Hui Xiong. Graph-based Prompt Learning with Mixture of Experts for Multi-task Corporate Profiling. ACM Transactions on Knowledge Discovery from Data **(ACM TKDD)**, 2026. [[paper]](https://dl.acm.org/doi/10.1145/3801152)
 
