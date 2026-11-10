@@ -38,7 +38,9 @@ AcadHomepage
 1. 配置谷歌学术引用爬虫：
     1. 在你的谷歌学术引用页面的url里找到你的谷歌学术ID：例如，在url https://scholar.google.com/citations?user=SCHOLAR_ID 中，`SCHOLAR_ID`部分即为你的谷歌学术ID。
     1. 在github本仓库页面的`Settings -> Secrets -> Actions -> New repository secret`中，添加`GOOGLE_SCHOLAR_ID`变量：`name=GOOGLE_SCHOLAR_ID`、`value=SCHOLAR_ID`。
-    1. 在github本仓库页面的`Action`中，点击*"I understand my workflows, go ahead and enable them"*启用workflows by clicking *"。本action将会谷歌学术引用的统计量数据`gs_data.json`到本仓库的`google-scholar-stats`分支中。每次修改main分支的内容会触发该action。本action也会在每天08:00 UTC定时触发。
+    1. 在github本仓库页面的`Actions`中启用工作流。本action将谷歌学术引用统计数据保存到`google-scholar-stats`分支，每天08:00 UTC定时更新，也可在`Get Citation Data -> Run workflow`中手动触发。修改爬虫代码或工作流时会自动触发；普通主页更新不会额外抓取Scholar。
+    1. 工作流需要已有的`google-scholar-stats`分支，其中包含最近一次成功抓取的`gs_data.json`及`gs_data_shieldsio.json`。初次配置时可在能够访问Scholar的电脑上安装`google_scholar_crawler/requirements.txt`，设置`GOOGLE_SCHOLAR_ID`并运行`python google_scholar_crawler/main.py`，再将`results`中的两个JSON文件提交到该分支。
+    1. Scholar可能限制GitHub runner的访问。爬虫最多等待180秒；抓取失败时保留最近一次有效数据，在Actions警告和摘要中显示最后更新时间，不提交新数据。缓存超过7天、缓存缺失或程序自身出错时，工作流仍会报错，以便发现长期未更新的问题。若长期被限制，可在能够访问Scholar的电脑上抓取后更新数据分支，或改用有稳定出口的自托管runner；增加GitHub写权限不能解决Scholar访问失败。
 1. 使用 [favicon-generator](https://redketchup.io/favicon-generator)生成favicon（网页icon文件），并下载所有文件到`REPO/images`。
 1. 修改主页配置文件[_config.yml](../_config.yml):
     1. `title`: 主页标题

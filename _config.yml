@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Chuan Qin's Homepage"
 description              : "Associate Professor at the Computer Network Information Center, Chinese Academy of Sciences." # Focusing on Knowledge Computing, Representation Learning, and Large Foundation Models."
-repository               : "Dylan-Qin/chuanqin.github.io"
+repository               : "Dylan-Qin/dylan-qin.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
