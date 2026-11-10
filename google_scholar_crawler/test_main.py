@@ -7,13 +7,12 @@ import json
 import os
 from pathlib import Path
 import subprocess
-import sys
 import tempfile
-from types import ModuleType, SimpleNamespace
 import unittest
 from unittest import mock
 
 from google_scholar_crawler import main as crawler
+from google_scholar_crawler import profile_api
 
 
 SCHOLAR_ID = '0KTz65wAAAAJ'
@@ -92,7 +91,38 @@ class CitationRefreshTests(unittest.TestCase):
             'schemaVersion': 1, 'label': 'citations', 'message': '5800',
         })
         self.assertEqual(self.output.read_text(), 'updated=true\n')
-        self.assertIn('Fetched 5800 citations', self.summary.read_text())
+        self.assertIn('5800 profile citations via Serper', self.summary.read_text())
+
+    def test_profile_refresh_retains_historical_publications_and_original_timestamp(self):
+        previous = self.author(updated='2026-11-08 14:56:22.945315')
+        self.cache(author=previous)
+        author = self.author(citedby=5800, publications={}, data_source='serper')
+        fetched = subprocess.CompletedProcess(['fetch'], 0, stdout=json.dumps(author), stderr='')
+        with mock.patch.object(crawler.subprocess, 'run', return_value=fetched):
+            crawler.update_results(self.results, SCHOLAR_ID)
+        saved = json.loads((self.results / 'gs_data.json').read_text())
+        self.assertEqual(saved['citedby'], 5800)
+        self.assertEqual(saved['publications'], previous['publications'])
+        self.assertEqual(saved['publications_updated'], previous['updated'])
+
+    def test_repeated_profile_refresh_does_not_advance_publication_timestamp(self):
+        previous = self.author(publications_updated='2025-12-01T00:00:00+00:00')
+        self.cache(author=previous)
+        author = self.author(citedby=5800, publications={}, data_source='serper')
+        fetched = subprocess.CompletedProcess(['fetch'], 0, stdout=json.dumps(author), stderr='')
+        with mock.patch.object(crawler.subprocess, 'run', return_value=fetched):
+            crawler.update_results(self.results, SCHOLAR_ID)
+        saved = json.loads((self.results / 'gs_data.json').read_text())
+        self.assertEqual(saved['publications_updated'], previous['publications_updated'])
+
+    def test_new_profile_initializes_empty_publication_mapping(self):
+        author = self.author(publications={}, data_source='serper')
+        fetched = subprocess.CompletedProcess(['fetch'], 0, stdout=json.dumps(author), stderr='')
+        with mock.patch.object(crawler.subprocess, 'run', return_value=fetched):
+            crawler.update_results(self.results, SCHOLAR_ID)
+        saved = json.loads((self.results / 'gs_data.json').read_text())
+        self.assertEqual(saved['publications'], {})
+        self.assertNotIn('publications_updated', saved)
 
     def test_source_unavailable_keeps_cache_byte_for_byte(self):
         before = self.cache()
@@ -188,53 +218,98 @@ class CitationRefreshTests(unittest.TestCase):
 
     def test_missing_author_secret_fails_before_starting_a_worker(self):
         with mock.patch.dict(os.environ, {'GOOGLE_SCHOLAR_ID': '  '}):
-            with mock.patch.object(crawler.subprocess, 'run') as run:
-                with self.assertRaisesRegex(ValueError, 'GOOGLE_SCHOLAR_ID'):
-                    crawler.main()
+            with mock.patch.object(crawler, 'load_local_environment'):
+                with mock.patch.object(crawler.subprocess, 'run') as run:
+                    with self.assertRaisesRegex(ValueError, 'GOOGLE_SCHOLAR_ID'):
+                        crawler.main([])
         run.assert_not_called()
 
+    def test_missing_api_key_fails_before_any_network_or_worker(self):
+        with mock.patch.dict(os.environ, {'SERPER_API_KEY': '  '}):
+            with mock.patch.object(crawler, 'load_local_environment'):
+                with mock.patch.object(crawler.subprocess, 'run') as run:
+                    with mock.patch.object(profile_api, 'urlopen') as request:
+                        with self.assertRaisesRegex(ValueError, 'SERPER_API_KEY'):
+                            crawler.main([])
+        run.assert_not_called()
+        request.assert_not_called()
 
-class ScholarWorkerTests(unittest.TestCase):
-    def scholarly_modules(self, author=None, error=None):
-        scholarly_api = SimpleNamespace(
-            set_timeout=mock.Mock(),
-            set_retries=mock.Mock(),
-            search_author_id=mock.Mock(return_value=author, side_effect=error),
-            fill=mock.Mock(),
+    def test_cli_output_directory_is_passed_to_coordinator(self):
+        with mock.patch.dict(os.environ, {'SERPER_API_KEY': 'dummy-test-key'}):
+            with mock.patch.object(crawler, 'load_local_environment'):
+                with mock.patch.object(crawler, 'update_results') as update:
+                    self.assertEqual(crawler.main(['--output-dir', str(self.results)]), 0)
+        update.assert_called_once_with(self.results, SCHOLAR_ID)
+
+
+class ProfileWorkerTests(unittest.TestCase):
+    def test_worker_calls_profile_api_once_and_emits_only_normalized_profile(self):
+        author = {'scholar_id': SCHOLAR_ID, 'citedby': 5711, 'publications': {}}
+        with mock.patch.dict(os.environ, {'SERPER_API_KEY': 'dummy-test-key'}):
+            with mock.patch.object(profile_api, 'fetch_author', return_value=author) as fetch:
+                with contextlib.redirect_stdout(io.StringIO()) as output:
+                    self.assertEqual(crawler.fetch_author(SCHOLAR_ID), 0)
+        self.assertEqual(json.loads(output.getvalue()), author)
+        fetch.assert_called_once_with(SCHOLAR_ID, 'dummy-test-key')
+
+    def test_worker_marks_temporary_service_failure_for_cached_fallback(self):
+        with mock.patch.dict(os.environ, {'SERPER_API_KEY': 'dummy-test-key'}):
+            with mock.patch.object(profile_api, 'fetch_author',
+                                   side_effect=profile_api.SourceUnavailable('Serper quota reached')):
+                with contextlib.redirect_stderr(io.StringIO()) as errors:
+                    self.assertEqual(crawler.fetch_author(SCHOLAR_ID), crawler.SOURCE_UNAVAILABLE)
+        self.assertIn('quota', errors.getvalue())
+        self.assertNotIn('dummy-test-key', errors.getvalue())
+
+    def test_worker_authentication_failure_remains_fatal(self):
+        with mock.patch.dict(os.environ, {'SERPER_API_KEY': 'dummy-test-key'}):
+            with mock.patch.object(profile_api, 'fetch_author',
+                                   side_effect=profile_api.ConfigurationError('Check SERPER_API_KEY')):
+                with contextlib.redirect_stderr(io.StringIO()) as errors:
+                    self.assertEqual(crawler.fetch_author(SCHOLAR_ID), 2)
+        self.assertIn('SERPER_API_KEY', errors.getvalue())
+        self.assertNotIn('dummy-test-key', errors.getvalue())
+
+
+class LocalEnvironmentTests(unittest.TestCase):
+    def setUp(self):
+        self.temporary = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temporary.cleanup)
+        self.directory = Path(self.temporary.name)
+
+    def load(self, content, environment):
+        (self.directory / '.env').write_text(content, encoding='utf-8')
+        with mock.patch.object(crawler, '__file__', str(self.directory / 'main.py')):
+            with mock.patch.dict(os.environ, environment, clear=True):
+                crawler.load_local_environment()
+                return dict(os.environ)
+
+    def test_reads_supported_keys_and_unquotes_values_without_executing_text(self):
+        loaded = self.load(
+            '# Local settings\nGOOGLE_SCHOLAR_ID = "0KTz65wAAAAJ"\n'
+            "SERPER_API_KEY='literal-$(not-executed)-key'\nUNRELATED=value\n", {},
         )
-        package = ModuleType('scholarly')
-        package.scholarly = scholarly_api
-        proxy = ModuleType('scholarly._proxy_generator')
-        proxy.MaxTriesExceededException = SourceUnavailable
-        return {'scholarly': package, 'scholarly._proxy_generator': proxy}, scholarly_api
+        self.assertEqual(loaded, {
+            'GOOGLE_SCHOLAR_ID': SCHOLAR_ID,
+            'SERPER_API_KEY': 'literal-$(not-executed)-key',
+        })
 
-    def test_worker_preserves_publications_as_mapping_and_adds_timestamp(self):
-        author = {
-            'scholar_id': SCHOLAR_ID, 'citedby': 5711,
-            'publications': [
-                {'author_pub_id': 'author:one', 'num_citations': 30},
-                {'author_pub_id': 'author:two', 'num_citations': 12},
-            ],
-        }
-        modules, api = self.scholarly_modules(author=author)
-        with mock.patch.dict(sys.modules, modules):
-            with contextlib.redirect_stdout(io.StringIO()) as output:
-                self.assertEqual(crawler.fetch_author(SCHOLAR_ID), 0)
-        fetched = json.loads(output.getvalue())
-        self.assertEqual(set(fetched['publications']), {'author:one', 'author:two'})
-        self.assertEqual(fetched['publications']['author:two']['num_citations'], 12)
-        self.assertIsNotNone(datetime.fromisoformat(fetched['updated']).tzinfo)
-        api.search_author_id.assert_called_once_with(SCHOLAR_ID)
+    def test_nonempty_environment_has_priority_over_local_file(self):
+        loaded = self.load('SERPER_API_KEY=file-key\nGOOGLE_SCHOLAR_ID=file-id\n', {
+            'SERPER_API_KEY': 'environment-key', 'GOOGLE_SCHOLAR_ID': 'environment-id',
+        })
+        self.assertEqual(loaded['SERPER_API_KEY'], 'environment-key')
+        self.assertEqual(loaded['GOOGLE_SCHOLAR_ID'], 'environment-id')
 
-    def test_worker_marks_scholar_access_rejection_as_source_unavailable(self):
-        modules, _ = self.scholarly_modules(error=SourceUnavailable('blocked'))
-        with mock.patch.dict(sys.modules, modules):
-            with contextlib.redirect_stderr(io.StringIO()):
-                self.assertEqual(crawler.fetch_author(SCHOLAR_ID), crawler.SOURCE_UNAVAILABLE)
+    def test_empty_environment_uses_local_file_and_ignores_malformed_lines(self):
+        loaded = self.load('invalid-line\nSERPER_API_KEY="file-key"\n', {'SERPER_API_KEY': ' '})
+        self.assertEqual(loaded['SERPER_API_KEY'], 'file-key')
 
-
-class SourceUnavailable(Exception):
-    pass
+    def test_absent_local_configuration_is_allowed(self):
+        with mock.patch.object(crawler, '__file__', str(self.directory / 'main.py')):
+            with mock.patch.dict(os.environ, {}, clear=True):
+                crawler.load_local_environment()
+                self.assertEqual(dict(os.environ), {})
 
 
 if __name__ == '__main__':

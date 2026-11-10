@@ -1,2 +1,1 @@
-scholarly==1.7.11
-bibtexparser<2
+# Uses only the Python standard library; no third-party packages are required.

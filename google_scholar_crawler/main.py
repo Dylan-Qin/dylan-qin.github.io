@@ -1,5 +1,6 @@
 """Refresh citation data without replacing a valid snapshot when Scholar is unavailable."""
 
+import argparse
 import json
 import os
 from pathlib import Path
@@ -14,27 +15,41 @@ SOURCE_UNAVAILABLE = 75
 
 
 def fetch_author(scholar_id):
-    # Keep imports in the worker so the coordinator can enforce a total deadline,
-    # including scholarly's internal backoff and CAPTCHA handling.
-    from scholarly import scholarly
-    from scholarly._proxy_generator import MaxTriesExceededException
-
-    scholarly.set_timeout(10)
-    scholarly.set_retries(2)
+    # Both package imports in tests and direct CLI execution are supported.
+    if __package__:
+        from . import profile_api
+    else:
+        import profile_api
     try:
-        author = scholarly.search_author_id(scholar_id)
-        scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
-    except MaxTriesExceededException:
-        print('Cannot fetch the author profile from Google Scholar.', file=sys.stderr)
+        author = profile_api.fetch_author(scholar_id, os.environ['SERPER_API_KEY'].strip())
+    except profile_api.SourceUnavailable as error:
+        print(str(error), file=sys.stderr)
         return SOURCE_UNAVAILABLE
-
-    author['updated'] = datetime.now(timezone.utc).isoformat()
-    author['publications'] = {
-        publication['author_pub_id']: publication
-        for publication in author['publications']
-    }
+    except profile_api.ConfigurationError as error:
+        print(str(error), file=sys.stderr)
+        return 2
     print(json.dumps(author, ensure_ascii=False))
     return 0
+
+
+def load_local_environment():
+    """Read only the two supported values from the ignored local .env file."""
+    configuration = Path(__file__).resolve().parent / '.env'
+    if not configuration.exists():
+        return
+    for line in configuration.read_text(encoding='utf-8').splitlines():
+        line = line.strip()
+        if not line or line.startswith('#'):
+            continue
+        name, separator, value = line.partition('=')
+        name = name.strip()
+        if not separator or name not in ('GOOGLE_SCHOLAR_ID', 'SERPER_API_KEY'):
+            continue
+        value = value.strip()
+        if len(value) >= 2 and value[0] == value[-1] and value[0] in ('"', "'"):
+            value = value[1:-1]
+        if not os.environ.get(name, '').strip():
+            os.environ[name] = value
 
 
 def validate_author(author, scholar_id):
@@ -90,7 +105,8 @@ def update_results(results, scholar_id):
         keep_cached_results(results, scholar_id, '180-second fetch deadline reached')
         return
     if fetched.returncode == SOURCE_UNAVAILABLE:
-        keep_cached_results(results, scholar_id, 'profile request failed')
+        reason = fetched.stderr.strip().replace('\n', ' ') or 'profile request failed'
+        keep_cached_results(results, scholar_id, reason)
         return
     # Dependency, parsing, and programming errors should still fail the workflow.
     if fetched.returncode != 0:
@@ -98,6 +114,18 @@ def update_results(results, scholar_id):
         fetched.check_returncode()
     author = json.loads(fetched.stdout)
     validate_author(author, scholar_id)
+    # Keep any historical per-paper data, with its original timestamp. The new
+    # request refreshes only profile totals and does not refresh this mapping.
+    if author.get('data_source') == 'serper':
+        previous = {}
+        try:
+            previous = json.loads((results / 'gs_data.json').read_text(encoding='utf-8'))
+        except (FileNotFoundError, json.JSONDecodeError):
+            pass
+        if (isinstance(previous, dict) and previous.get('scholar_id') == scholar_id
+                and isinstance(previous.get('publications'), dict)):
+            author['publications'] = previous['publications']
+            author['publications_updated'] = previous.get('publications_updated', previous.get('updated'))
     badge = {
         'schemaVersion': 1,
         'label': 'citations',
@@ -109,16 +137,23 @@ def update_results(results, scholar_id):
         temporary = destination.with_suffix('.json.tmp')
         temporary.write_text(json.dumps(data, ensure_ascii=False), encoding='utf-8')
         temporary.replace(destination)
-    report(True, f'Fetched {author["citedby"]} citations from Google Scholar at {author["updated"]}.')
+    report(True, f'Fetched {author["citedby"]} profile citations via Serper at {author["updated"]}.')
 
 
-def main():
+def main(argv=None):
+    parser = argparse.ArgumentParser(description='Refresh the personal-profile citation badge via Serper.')
+    parser.add_argument('--fetch', action='store_true', help=argparse.SUPPRESS)
+    parser.add_argument('--output-dir', type=Path, default=Path(__file__).resolve().parent / 'results')
+    arguments = parser.parse_args(argv)
+    load_local_environment()
     scholar_id = os.environ.get('GOOGLE_SCHOLAR_ID', '').strip()
     if not scholar_id:
         raise ValueError('Set the GOOGLE_SCHOLAR_ID repository secret before running the crawler.')
-    if sys.argv[1:] == ['--fetch']:
+    if not os.environ.get('SERPER_API_KEY', '').strip():
+        raise ValueError('Set SERPER_API_KEY in the local .env file or GitHub Actions secrets.')
+    if arguments.fetch:
         return fetch_author(scholar_id)
-    update_results(Path(__file__).resolve().parent / 'results', scholar_id)
+    update_results(arguments.output_dir, scholar_id)
     return 0
 
 
