@@ -123,6 +123,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 ## In the Year of 2026:
 
+- Han Wu, Le Zhang, **<u>Chuan Qin</u>**, Rui Zha, Chen Zhu, Hengshu Zhu, Richang Hong. Customized Technological Forecasting With Multiview Hybrid Graph Learning. IEEE Transactions on Computational Social Systems **(IEEE TCSS)**, 2026. [[paper]](https://ieeexplore.ieee.org/document/11802625)
+
 - Meng Xiao, **<u>Chuan Qin</u>**, Jinmiao Chen, Yihang Cheng, Yuanchun Zhou, Hengshu Zhu. BioHarness: substrate-aware evidence assembly for biomedical question answering across literature, knowledge bases, and biological atlases. **Bioinformatics**, 2026. [[paper]](https://academic.oup.com/bioinformatics/article/42/11/btag795/8993779)
 
 - Hui Liao, **<u>Chuan Qin</u>**, Yongwen Ren, Hao Li, Zhenya Huang, Yanyong Zhang, Chao Wang*. VERDICT: Verifiable Evolving Reasoning with Directive-Informed Collegial Teams for Legal Judgment Prediction. In the 2026 Conference on Empirical Methods in Natural Language Processing **(Findings of EMNLP-2026)**, 2026.
