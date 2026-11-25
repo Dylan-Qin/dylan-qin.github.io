@@ -24,6 +24,7 @@ Dr. Chuan Qin is currently an Associate Professor at the Computer Network Inform
 Our research group is continuously recruiting **self-motivated undergraduate, master's, and Ph.D. students** to join us. We are also looking for **full-stack engineers** to join us in building and advancing our research platforms. Interested students and engineers are welcome to reach out via email (**qinchuan [AT] cnic.cn**) with your CV attached.
 
 # 🔥 News
+- *2026.11*: &nbsp;🎉🎉 Our technical report on RecurSciBench is now on arXiv! [[Technical Report]](https://arxiv.org/abs/2611.32508)
 - *2026.11*: &nbsp;🎉🎉 Our paper, [[BioHarness]](https://academic.oup.com/bioinformatics/article/42/11/btag795/8993779), has been published in Bioinformatics, and our [[SciMatrix·xCompass]](https://xcompass.scimatrix.cn) system is now live! Congrats to all collaborators, and welcome to try out the system!
 - *2026.10*: &nbsp;🎉🎉 Our [RSI Evaluation](https://scihorizon.cn/SelfEvolution) module for AI4Science is now live on the [SciHorizon](https://www.scihorizon.cn/) platform, enabling continuously self-evolving benchmarks and systematic evaluation of self-improving AI agents for scientific research. Stay tuned!
 - *2026.09*: &nbsp;🎉🎉 Our technical report for benchmarking scientific embodied agents, [SciHorizon-eLab](https://arxiv.org/abs/2609.30971), is now online, together with the code, benchmark data and evaluation toolkit on [GitHub](https://github.com/SciHorizon-elab/SciHorizon-elab). 
@@ -115,6 +116,8 @@ document.addEventListener('DOMContentLoaded', function() {
 (* Corresponding Authors, + Co-first Authors) 
 
 ## Technical Reports:
+
+- Wenxi Xu, **<u>Chuan Qin*</u>**, Zihan Wang, Zixing Chen, Le Zhang, Jingbo Zhou, Hao Wang, Yuanchun Zhou, Hengshu Zhu*. RecurSciBench: Benchmarking Recursive Self-Improvement in Data-Driven Scientific Research. arXiv preprint arXiv:2611.32508, 2026. [[technical report]](https://arxiv.org/abs/2611.32508) [[RSI Evaluation]](https://www.scihorizon.cn/SelfEvolution)
 
 - Maokai Qin, **<u>Chuan Qin*</u>**, Qi Zhang, Dianyu Liu, Zirui Liu, Hongting Niu, Yuanchun Zhou, Hengshu Zhu*. SciHorizon-eLab: An Agentic Protocol-to-Task Compiler for Scalable Benchmarking of Scientific Embodied Agents. arXiv preprint arXiv:2609.30971, 2026. [[technical report]](https://arxiv.org/abs/2609.30971) [[Github]](https://github.com/SciHorizon-elab/SciHorizon-elab)
 
