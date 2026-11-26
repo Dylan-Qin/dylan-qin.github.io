@@ -342,12 +342,12 @@ document.addEventListener('DOMContentLoaded', function() {
 - Frontiers of Computer Science (FCS)
   
 ## Area Chair/Seniro Program Committee Member/Program Committee Member: 
-- The ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD-2022,2023,2024,2025,2026)
-- The International Conference on Machine Learning (ICML-2022,2023,2024,2025,2026)
-- The ACM Web Conference (WWW-2023,2024,2025,2026)
-- The Annual Meeting of the Association for Computational Linguistics (ACL-2023,2024,2025,2026)
+- The ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD-2022,2023,2024,2025,2026,2027)
+- The International Conference on Machine Learning (ICML-2022,2023,2024,2025,2026,2027)
+- The ACM Web Conference (WWW-2023,2024,2025,2026,2027)
+- The Annual Meeting of the Association for Computational Linguistics (ACL-2023,2024,2025,2026,2027)
 - The International Conference on Neural Information Processing Systems (NeurlPS-2022,2023,2024,2025)
-- The International Conference on Learning Representations (ICLR-2024,2025,2026)
+- The International Conference on Learning Representations (ICLR-2024,2025,2026,2027)
 - The International Joint Conference on Artificial Intelligence (IJCAI-2021,2022,2023,2024,2025,2026)
 - The AAAI Conference on Artificial Intelligence (AAAI-2021,2023,2024,2025,2026)
 - The Conference on Empirical Methods in Natural Language Processing (EMNLP-2021,2022,2023)
